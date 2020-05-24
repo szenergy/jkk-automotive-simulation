@@ -1,0 +1,1325 @@
+fileFormatVersion: 2
+guid: 0f6186605a7d5134495e1700cb3611ae
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: attachmentNode
+    100002: attachmentNode 1
+    100004: attachmentNode 10
+    100006: attachmentNode 11
+    100008: attachmentNode 12
+    100010: attachmentNode 13
+    100012: attachmentNode 14
+    100014: attachmentNode 15
+    100016: attachmentNode 16
+    100018: attachmentNode 17
+    100020: attachmentNode 18
+    100022: attachmentNode 19
+    100024: attachmentNode 2
+    100026: attachmentNode 20
+    100028: attachmentNode 21
+    100030: attachmentNode 22
+    100032: attachmentNode 23
+    100034: attachmentNode 24
+    100036: attachmentNode 25
+    100038: attachmentNode 26
+    100040: attachmentNode 27
+    100042: attachmentNode 28
+    100044: attachmentNode 29
+    100046: attachmentNode 3
+    100048: attachmentNode 30
+    100050: attachmentNode 31
+    100052: attachmentNode 32
+    100054: attachmentNode 33
+    100056: attachmentNode 34
+    100058: attachmentNode 35
+    100060: attachmentNode 36
+    100062: attachmentNode 37
+    100064: attachmentNode 38
+    100066: attachmentNode 39
+    100068: attachmentNode 4
+    100070: attachmentNode 40
+    100072: attachmentNode 41
+    100074: attachmentNode 42
+    100076: attachmentNode 43
+    100078: attachmentNode 44
+    100080: attachmentNode 45
+    100082: attachmentNode 46
+    100084: attachmentNode 47
+    100086: attachmentNode 48
+    100088: attachmentNode 49
+    100090: attachmentNode 5
+    100092: attachmentNode 50
+    100094: attachmentNode 51
+    100096: attachmentNode 52
+    100098: attachmentNode 53
+    100100: attachmentNode 54
+    100102: attachmentNode 55
+    100104: attachmentNode 56
+    100106: attachmentNode 57
+    100108: attachmentNode 58
+    100110: attachmentNode 59
+    100112: attachmentNode 6
+    100114: attachmentNode 60
+    100116: attachmentNode 61
+    100118: attachmentNode 62
+    100120: attachmentNode 7
+    100122: attachmentNode 8
+    100124: attachmentNode 9
+    100126: Metal_CylinderPost_8ftNode
+    100128: Metal_CylinderPost_8ftNode 1
+    100130: Metal_CylinderPost_8ftNode 10
+    100132: Metal_CylinderPost_8ftNode 11
+    100134: Metal_CylinderPost_8ftNode 12
+    100136: Metal_CylinderPost_8ftNode 13
+    100138: Metal_CylinderPost_8ftNode 14
+    100140: Metal_CylinderPost_8ftNode 15
+    100142: Metal_CylinderPost_8ftNode 16
+    100144: Metal_CylinderPost_8ftNode 17
+    100146: Metal_CylinderPost_8ftNode 18
+    100148: Metal_CylinderPost_8ftNode 19
+    100150: Metal_CylinderPost_8ftNode 2
+    100152: Metal_CylinderPost_8ftNode 20
+    100154: Metal_CylinderPost_8ftNode 21
+    100156: Metal_CylinderPost_8ftNode 22
+    100158: Metal_CylinderPost_8ftNode 23
+    100160: Metal_CylinderPost_8ftNode 24
+    100162: Metal_CylinderPost_8ftNode 25
+    100164: Metal_CylinderPost_8ftNode 26
+    100166: Metal_CylinderPost_8ftNode 27
+    100168: Metal_CylinderPost_8ftNode 28
+    100170: Metal_CylinderPost_8ftNode 29
+    100172: Metal_CylinderPost_8ftNode 3
+    100174: Metal_CylinderPost_8ftNode 30
+    100176: Metal_CylinderPost_8ftNode 31
+    100178: Metal_CylinderPost_8ftNode 32
+    100180: Metal_CylinderPost_8ftNode 33
+    100182: Metal_CylinderPost_8ftNode 34
+    100184: Metal_CylinderPost_8ftNode 35
+    100186: Metal_CylinderPost_8ftNode 36
+    100188: Metal_CylinderPost_8ftNode 37
+    100190: Metal_CylinderPost_8ftNode 38
+    100192: Metal_CylinderPost_8ftNode 39
+    100194: Metal_CylinderPost_8ftNode 4
+    100196: Metal_CylinderPost_8ftNode 40
+    100198: Metal_CylinderPost_8ftNode 41
+    100200: Metal_CylinderPost_8ftNode 42
+    100202: Metal_CylinderPost_8ftNode 43
+    100204: Metal_CylinderPost_8ftNode 44
+    100206: Metal_CylinderPost_8ftNode 45
+    100208: Metal_CylinderPost_8ftNode 46
+    100210: Metal_CylinderPost_8ftNode 47
+    100212: Metal_CylinderPost_8ftNode 48
+    100214: Metal_CylinderPost_8ftNode 49
+    100216: Metal_CylinderPost_8ftNode 5
+    100218: Metal_CylinderPost_8ftNode 50
+    100220: Metal_CylinderPost_8ftNode 51
+    100222: Metal_CylinderPost_8ftNode 52
+    100224: Metal_CylinderPost_8ftNode 53
+    100226: Metal_CylinderPost_8ftNode 54
+    100228: Metal_CylinderPost_8ftNode 55
+    100230: Metal_CylinderPost_8ftNode 56
+    100232: Metal_CylinderPost_8ftNode 57
+    100234: Metal_CylinderPost_8ftNode 58
+    100236: Metal_CylinderPost_8ftNode 59
+    100238: Metal_CylinderPost_8ftNode 6
+    100240: Metal_CylinderPost_8ftNode 60
+    100242: Metal_CylinderPost_8ftNode 61
+    100244: Metal_CylinderPost_8ftNode 62
+    100246: Metal_CylinderPost_8ftNode 7
+    100248: Metal_CylinderPost_8ftNode 8
+    100250: Metal_CylinderPost_8ftNode 9
+    100252: Node_10Node
+    100254: Node_10Node 1
+    100256: Node_10Node 10
+    100258: Node_10Node 2
+    100260: Node_10Node 3
+    100262: Node_10Node 4
+    100264: Node_10Node 5
+    100266: Node_10Node 6
+    100268: Node_10Node 7
+    100270: Node_10Node 8
+    100272: Node_10Node 9
+    100274: Node_11Node
+    100276: Node_11Node 1
+    100278: Node_11Node 2
+    100280: Node_12Node
+    100282: Node_12Node 1
+    100284: Node_13Node
+    100286: Node_13Node 1
+    100288: Node_13Node 2
+    100290: Node_14Node
+    100292: Node_15Node
+    100294: Node_15Node 1
+    100296: Node_16Node
+    100298: Node_17Node
+    100300: Node_17Node 1
+    100302: Node_17Node 2
+    100304: Node_17Node 3
+    100306: Node_18Node
+    100308: Node_19Node
+    100310: Node_19Node 1
+    100312: Node_19Node 2
+    100314: Node_19Node 3
+    100316: Node_1Node
+    100318: Node_1Node 1
+    100320: Node_1Node 2
+    100322: Node_1Node 3
+    100324: Node_1Node 4
+    100326: Node_20Node
+    100328: Node_20Node 1
+    100330: Node_21Node
+    100332: Node_22Node
+    100334: Node_23Node
+    100336: Node_23Node 1
+    100338: Node_24Node
+    100340: Node_25Node
+    100342: Node_26Node
+    100344: Node_27Node
+    100346: Node_28Node
+    100348: Node_29Node
+    100350: Node_2Node
+    100352: Node_2Node 1
+    100354: Node_3Node
+    100356: Node_4Node
+    100358: Node_4Node 1
+    100360: Node_4Node 2
+    100362: Node_5Node
+    100364: Node_6Node
+    100366: Node_6Node 1
+    100368: Node_7Node
+    100370: Node_7Node 1
+    100372: Node_7Node 2
+    100374: Node_8Node
+    100376: Node_9Node
+    100378: Node_9Node 1
+    100380: NodeNode
+    100382: NodeNode 1
+    100384: NodeNode 10
+    100386: NodeNode 11
+    100388: NodeNode 12
+    100390: NodeNode 13
+    100392: NodeNode 14
+    100394: NodeNode 15
+    100396: NodeNode 16
+    100398: NodeNode 17
+    100400: NodeNode 18
+    100402: NodeNode 2
+    100404: NodeNode 3
+    100406: NodeNode 4
+    100408: NodeNode 5
+    100410: NodeNode 6
+    100412: NodeNode 7
+    100414: NodeNode 8
+    100416: NodeNode 9
+    100418: PropsNode
+    100420: RoadsNode
+    100422: round_postNode
+    100424: round_postNode 1
+    100426: round_postNode 10
+    100428: round_postNode 11
+    100430: round_postNode 12
+    100432: round_postNode 13
+    100434: round_postNode 14
+    100436: round_postNode 15
+    100438: round_postNode 16
+    100440: round_postNode 17
+    100442: round_postNode 18
+    100444: round_postNode 19
+    100446: round_postNode 2
+    100448: round_postNode 20
+    100450: round_postNode 21
+    100452: round_postNode 22
+    100454: round_postNode 23
+    100456: round_postNode 24
+    100458: round_postNode 25
+    100460: round_postNode 26
+    100462: round_postNode 27
+    100464: round_postNode 28
+    100466: round_postNode 29
+    100468: round_postNode 3
+    100470: round_postNode 30
+    100472: round_postNode 31
+    100474: round_postNode 32
+    100476: round_postNode 33
+    100478: round_postNode 34
+    100480: round_postNode 35
+    100482: round_postNode 36
+    100484: round_postNode 37
+    100486: round_postNode 38
+    100488: round_postNode 39
+    100490: round_postNode 4
+    100492: round_postNode 40
+    100494: round_postNode 41
+    100496: round_postNode 42
+    100498: round_postNode 43
+    100500: round_postNode 44
+    100502: round_postNode 45
+    100504: round_postNode 46
+    100506: round_postNode 47
+    100508: round_postNode 48
+    100510: round_postNode 49
+    100512: round_postNode 5
+    100514: round_postNode 50
+    100516: round_postNode 51
+    100518: round_postNode 52
+    100520: round_postNode 53
+    100522: round_postNode 54
+    100524: round_postNode 55
+    100526: round_postNode 56
+    100528: round_postNode 57
+    100530: round_postNode 58
+    100532: round_postNode 59
+    100534: round_postNode 6
+    100536: round_postNode 60
+    100538: round_postNode 61
+    100540: round_postNode 62
+    100542: round_postNode 7
+    100544: round_postNode 8
+    100546: round_postNode 9
+    100548: TerrainNode
+    100550: Tile_0_0Node
+    100552: //RootNode
+    100554: '{017013de-d65e-424c-ad47-712252d497a2}Metal_CylinderPost_8ftNode'
+    100556: '{03d48e0b-6dc1-48b4-8cc6-638514ccfb86}Sign_Yield_0Node'
+    100558: '{044d1911-e955-4d94-af46-27897dad9878}Sign_Yield_0Node'
+    100560: '{071a4c64-fc48-47c6-8dfe-10a9ae9cead0}Metal_CylinderPost_8ftNode'
+    100562: '{08d9699e-5eab-4273-8696-8c3cf3adf486}Sign_PriorityRoad_0Node'
+    100564: '{10309436-eefe-4f96-9a98-ad5ff446adfb}Metal_CylinderPost_8ftNode'
+    100566: '{13175006-042f-4d18-8d96-d7c2925802cb}Metal_CylinderPost_8ftNode'
+    100568: '{14582ee5-a51e-43e0-b50c-cc6d72f7d68d}Sign_BusStop_0Node'
+    100570: '{149ea4f4-7b53-4704-883c-6ad7c718f22b}Sign_NoEntry_0Node'
+    100572: '{14c45785-709c-4110-b01a-d0acee080cfb}Sign_Arrow01_0Node'
+    100574: '{1678bc2c-6c34-430b-9190-2ed5d15a1f85}Sign_Arrow01_0Node'
+    100576: '{17431824-e004-43c5-bd77-1b721ee165db}Sign_Arrow01_0Node'
+    100578: '{1a6025d7-9153-4373-9025-847e2f6f1cb2}Sign_Bicycle01_0Node'
+    100580: '{1d3a36b1-9d7e-48ca-95dc-62b529cfe2a8}Metal_CylinderPost_8ftNode'
+    100582: '{2048be6a-3dbb-45e1-ac50-1208cf84342d}Sign_Arrow01_0Node'
+    100584: '{211039ef-da62-4218-ba6a-759c1c2017f7}Sign_Yield_0Node'
+    100586: '{21e5dcd2-8337-4643-bebf-d3c4b97024ad}Sign_DisabledParking_0Node'
+    100588: '{23851c3e-41a1-4789-b87f-ef39ac153506}Sign_Arrow01_0Node'
+    100590: '{25ad3fb9-477d-4d6e-91bf-bc1a4dbde96d}Metal_CylinderPost_8ftNode'
+    100592: '{282f06e1-4b87-495b-b98e-06cf6015fba7}Sign_NoStopping_0Node'
+    100594: '{29eca4c0-8c5b-4ad8-aafa-300c9cad6b06}Sign_Bicycle01_0Node'
+    100596: '{2b04365c-db91-4af0-916b-9356913abfca}Metal_CylinderPost_8ftNode'
+    100598: '{2f12c7f2-dc3a-4b9d-992d-d79e9800717a}Sign_PriorityRoad_0Node'
+    100600: '{2f8546df-8daf-47fe-913f-89c461379e4a}Sign_Parking_0Node'
+    100602: '{3139d624-3f2e-4628-a98d-51262c8936cd}Sign_Arrow01_0Node'
+    100604: '{343b1cb3-05ea-4141-b641-302482e51a45}Sign_SpeedLimit_70_Max_0Node'
+    100606: '{347e2e37-e4b8-4cc6-b35b-a087d6b64dbe}Sign_AheadThruAndRightTurn_0Node'
+    100608: '{36498573-57e6-4e4f-bd3b-009a7e30c35b}Metal_CylinderPost_8ftNode'
+    100610: '{3666acb2-b7d1-4f96-86b0-cf7fad961242}Sign_Arrow01_0Node'
+    100612: '{374bb509-c24e-4713-abad-8ae130d26367}Sign_Warning_Cyclist_0Node'
+    100614: '{37bfd6ef-21fa-4d07-94ee-8bdd869203c7}Metal_CylinderPost_8ftNode'
+    100616: '{3b5abdd5-3e50-44f2-b04a-b88b5e2b0654}Sign_SpeedLimit_60_Max_0Node'
+    100618: '{3ba22b62-fd32-401e-9116-dcbfc51ea0e3}Metal_CylinderPost_8ftNode'
+    100620: '{3c58fdc1-cccf-43d8-aec1-4187401ef751}Metal_CylinderPost_8ftNode'
+    100622: '{3c61b03d-fc96-4ecd-8655-063b981f9f52}Sign_Stop_0Node'
+    100624: '{3d03c38b-88f0-4942-875b-d5465ade690a}Sign_TramCrossing_0Node'
+    100626: '{3e79a95e-4190-4725-90de-9aea09fd0e45}Metal_CylinderPost_8ftNode'
+    100628: '{44536423-11da-4dd2-863d-aa347ac096c8}Metal_CylinderPost_8ftNode'
+    100630: '{46692845-7665-4c31-b4e5-5d37fd4837c4}Sign_Lane08_0Node'
+    100632: '{4baac79a-ef45-44b4-a509-d9e63406dbae}Sign_NoStopping_0Node'
+    100634: '{4bf9e59e-ce21-48e5-8827-b27674645817}Metal_CylinderPost_8ftNode'
+    100636: '{4c012b75-9c7e-4651-becf-b3761d912759}Sign_DisabledParking_0Node'
+    100638: '{4c804e7a-7aab-4a3c-9474-22591cde5020}Metal_CylinderPost_8ftNode'
+    100640: '{4c913daf-288b-4be3-99f4-f1767f5ed644}Sign_Stop_0Node'
+    100642: '{4e552e52-0540-4ef8-8e19-1d5a2ff4833f}Metal_CylinderPost_8ftNode'
+    100644: '{5327ee5a-2fef-4792-9c6b-e6bf3226feae}Metal_CylinderPost_8ftNode'
+    100646: '{53294af7-eb65-43ad-9685-5d2ab1d7a812}Metal_CylinderPost_8ftNode'
+    100648: '{5343bc14-502e-47c3-adfe-fc5cc75c9768}Metal_CylinderPost_8ftNode'
+    100650: '{541f3182-0b68-4dfd-805d-7a41a52e991c}Sign_Arrow01_0Node'
+    100652: '{57055edc-2f15-4a13-886c-63b256f600c4}Sign_Parking_0Node'
+    100654: '{5880f2c1-2e2a-4713-a508-f6bd56a551e5}Sign_Lane09_0Node'
+    100656: '{5e43b760-df7b-4e9c-995b-6c6d9607dc15}Metal_CylinderPost_8ftNode'
+    100658: '{5ec4d09f-74c8-4845-87b5-05899576efb4}Metal_CylinderPost_8ftNode'
+    100660: '{621924ec-51fe-4e24-b3e6-9eb2637f1032}Sign_Arrow01_0Node'
+    100662: '{63004456-3fba-430c-88a2-c72990449aae}Sign_Lane12_0Node'
+    100664: '{675063c8-1785-4bd2-b215-e4d073284c79}Metal_CylinderPost_8ftNode'
+    100666: '{6ab56585-261d-4cf7-8711-bba523b9c719}Metal_CylinderPost_8ftNode'
+    100668: '{6b3ba3b5-8126-464e-b328-88252f9198b6}Metal_CylinderPost_8ftNode'
+    100670: '{6bb51d3b-64ff-4868-b555-3ba0037dab8f}Sign_AheadThruAndRightTurn_0Node'
+    100672: '{6dc47c60-9421-4e84-91c2-0a20b27a18a7}Metal_CylinderPost_8ftNode'
+    100674: '{6e253189-f0e5-4ca5-b14e-a38ae6174e75}Sign_Parking_0Node'
+    100676: '{7074fb9e-1a83-4484-bfb1-9995839c644e}Metal_CylinderPost_8ftNode'
+    100678: '{70f03c95-6304-4911-b97b-67dece3a4303}Sign_Lane10_0Node'
+    100680: '{72899211-303a-4a15-82f9-e93d4de9fbcc}Metal_CylinderPost_8ftNode'
+    100682: '{738d3cd1-99a4-4621-a6a8-eac04ea2fbe7}Sign_Yield_0Node'
+    100684: '{7efbfcc3-23e5-40d8-83bd-6402fb466a16}Sign_NoEntry_0Node'
+    100686: '{7f3b15ae-2694-4dfb-9803-c35eb97d8635}Metal_CylinderPost_8ftNode'
+    100688: '{7f5160ec-5aad-4692-a903-67eaa07b0850}Sign_Warning_Cyclist_0Node'
+    100690: '{8068a9e6-9d8f-4d7a-a2a2-387ae150945e}Metal_CylinderPost_8ftNode'
+    100692: '{80b44ee6-ff72-43cd-b436-27b1b85f6a31}Metal_CylinderPost_8ftNode'
+    100694: '{8198f50a-7562-4cdc-bc74-dd199500780b}Metal_CylinderPost_8ftNode'
+    100696: '{83382625-6a16-46ba-b62c-8965123bc0f2}Sign_OneWay_0Node'
+    100698: '{84d76931-2864-4280-a882-9ce55827a010}Metal_CylinderPost_8ftNode'
+    100700: '{869b704a-c5b6-4205-bcf6-5aa4452b0d7f}Metal_CylinderPost_8ftNode'
+    100702: '{89de535d-32c5-4e10-9f90-49770dd989ca}Metal_CylinderPost_8ftNode'
+    100704: '{8b3b9bb4-ab4d-47f2-b98a-91797819838e}Metal_CylinderPost_8ftNode'
+    100706: '{8bd1a4a9-c293-4963-a63a-2b3ba3c44291}Metal_CylinderPost_8ftNode'
+    100708: '{8c5c7f01-7d80-4a51-9f2f-816f840f7dbd}Sign_Lane04_0Node'
+    100710: '{8d321ebf-ab8b-43c2-9118-8d52269f6731}Metal_CylinderPost_8ftNode'
+    100712: '{8d60a2d1-62c8-4776-a78b-065ff3bb0122}Metal_CylinderPost_8ftNode'
+    100714: '{8eb36fa3-e8fd-4874-9f8c-6c0dcc93aa62}Sign_EndBicycleLane_0Node'
+    100716: '{903aa261-3a68-47e6-b3b3-10e3a16aa26a}Sign_OneWay_0Node'
+    100718: '{930aa37e-7522-43ed-b6a7-7d87c5b0b84e}Metal_CylinderPost_8ftNode'
+    100720: '{937ea2c7-d1c0-422b-a790-4765a58a4cde}Metal_CylinderPost_8ftNode'
+    100722: '{9557c2ab-0a8f-4a5b-85a8-53c6532d703b}Sign_Yield_0Node'
+    100724: '{9602ec28-70c2-47e2-af70-5ddf14807c89}Metal_CylinderPost_8ftNode'
+    100726: '{9660bbc4-0317-44df-a3de-527654bf22f4}Metal_CylinderPost_8ftNode'
+    100728: '{979855d7-9fac-48b2-b658-4186b0082618}Sign_PassEitherSide_0Node'
+    100730: '{97ea1ccf-2000-44b4-a89d-f0643b0736c7}Sign_NoEntry_0Node'
+    100732: '{9913e7ca-580e-4deb-934f-1117e73c3e2a}Sign_NoEntry_0Node'
+    100734: '{99171df2-2309-4c5b-9b94-f6bc7943f534}Metal_CylinderPost_8ftNode'
+    100736: '{9957a267-6669-4349-898b-4248813358ee}Sign_NoStopping_0Node'
+    100738: '{9979bd2e-0001-469d-a99d-a85775e83e5b}Metal_CylinderPost_8ftNode'
+    100740: '{997af5be-88a2-4b7b-86f4-48d4d77ea5ba}Sign_OneWay_0Node'
+    100742: '{9aa75903-66c0-48b3-b2f2-68bafd2e168b}Sign_PassEitherSide_0Node'
+    100744: '{9d3d10d9-e1a1-453c-9118-b769e57e3b8e}Sign_SpeedLimit_60_Max_0Node'
+    100746: '{9df8dbc4-8e75-46e0-aa4e-0eb80454963d}Sign_Lane03_0Node'
+    100748: '{a00d78c1-2654-4c80-b90b-1a63a00c9e14}Sign_Arrow01_0Node'
+    100750: '{a35ceff1-3276-4b8c-ac7b-54ef27172378}Sign_Yield_0Node'
+    100752: '{a35d17f9-6ffe-446d-a3d7-0ed3ea559863}Metal_CylinderPost_8ftNode'
+    100754: '{a437d06d-484c-4c12-ad68-108200793b73}Sign_Arrow01_0Node'
+    100756: '{a714cbdf-5918-4367-8701-68bb62f02a33}Metal_CylinderPost_8ftNode'
+    100758: '{a94aeb2c-9bd7-4d29-8138-6448a490ba91}Metal_CylinderPost_8ftNode'
+    100760: '{aa1d6d5e-4490-4720-b1d1-dd965e3121bc}Metal_CylinderPost_8ftNode'
+    100762: '{ab6e9d79-69a9-4fda-bf5c-dec55715c9b4}Sign_Lane11_0Node'
+    100764: '{ab97af4c-2bfb-473d-b943-afc78611270d}Sign_Lane01_0Node'
+    100766: '{ac953f79-7b58-40ff-8b72-d610233ec3d2}Sign_Parking_0Node'
+    100768: '{acb4836e-6c63-43c3-aeb4-93f4e89e9267}Sign_Yield_0Node'
+    100770: '{ae116733-95c1-4d2c-82f4-37868bf1f5ea}Sign_Arrow01_0Node'
+    100772: '{aecb3de4-df90-446e-b00a-26d96996c748}Sign_OneWay_0Node'
+    100774: '{af6a6bbc-aa7f-4add-a36f-e35588d1f473}Sign_PassEitherSide_0Node'
+    100776: '{b0a8ca7f-74eb-4217-85fe-bb123cf6a358}Metal_CylinderPost_8ftNode'
+    100778: '{b375e21f-0e6b-44a2-98b4-98562b818cb1}Sign_SpeedLimit_70_Max_0Node'
+    100780: '{b4982b29-f6ec-4688-80eb-e24d21851cd8}Sign_Yield_0Node'
+    100782: '{b5cbad3f-f39f-41d7-8e35-c2264e957d56}Metal_CylinderPost_8ftNode'
+    100784: '{b603e72d-b387-4d46-9c0c-b30f9c680a6f}Metal_CylinderPost_8ftNode'
+    100786: '{b945b49e-7c19-4210-baeb-01cd223ebdd8}Metal_CylinderPost_8ftNode'
+    100788: '{bb02c7a1-7a31-4897-a54c-1c7cf372d372}Sign_Lane01_0Node'
+    100790: '{bb35b560-71e3-492a-9ca5-6957973769e6}Sign_Stop_0Node'
+    100792: '{bb6c1a4a-8b28-44f8-8f4a-fe88483f031f}Sign_Lane02_0Node'
+    100794: '{be43efb8-d3f3-49b2-aab9-9e1794a70923}Metal_CylinderPost_8ftNode'
+    100796: '{c098e86b-f5d8-4d58-b665-60b444a03a31}Sign_Arrow01_0Node'
+    100798: '{c19c0497-cfe8-412a-8c86-f0d5226dc529}Metal_CylinderPost_8ftNode'
+    100800: '{c4c1e631-8a80-4cbd-bb47-ce431227fb1a}Sign_Lane07_0Node'
+    100802: '{c4e6ad80-9435-4a4a-82b4-721a0f6d4911}Sign_Arrow01_0Node'
+    100804: '{c71b3ffd-2969-4023-adb4-1700b110bc29}Sign_Arrow01_0Node'
+    100806: '{c9ecef70-4028-49a9-80a3-02a36963c50c}Metal_CylinderPost_8ftNode'
+    100808: '{cd6c3973-e644-436e-84d1-3fe4e520f85a}Sign_Arrow01_0Node'
+    100810: '{cdb2f549-bdea-4740-8744-62cff94edb2d}Metal_CylinderPost_8ftNode'
+    100812: '{ce7db6ee-e7dd-4efb-9a95-265cf1baa488}Sign_Arrow01_0Node'
+    100814: '{d2e069b4-5e6b-4d86-993a-2c8597293aea}Metal_CylinderPost_8ftNode'
+    100816: '{d6cf761c-153c-4450-ab35-8e717cd0462d}Sign_Yield_0Node'
+    100818: '{d77cd111-1488-4383-b9bf-1c33da79b17a}Metal_CylinderPost_8ftNode'
+    100820: '{e155f1f7-c4b2-4bad-abca-d8caafc75d93}Sign_Yield_0Node'
+    100822: '{ed8fd0f2-444c-4a07-8ce6-541bbef88bf6}Metal_CylinderPost_8ftNode'
+    100824: '{ef6e45fd-47a1-4929-91d7-2a167236709d}Sign_PriorityRoad_0Node'
+    100826: '{f248f2ed-1790-4c36-948d-bdad1f8e3675}Sign_Arrow01_0Node'
+    100828: '{f2a94da1-6254-4228-951a-97f9c648afd1}Metal_CylinderPost_8ftNode'
+    100830: '{f3e1233c-7dcf-4ed6-b5df-d53be491d0e6}Sign_Arrow01_0Node'
+    100832: '{f42008b0-3ba6-457b-ad38-4c2df1974d48}Metal_CylinderPost_8ftNode'
+    100834: '{f489d842-c648-406b-a4f8-98d81c77a48d}Sign_OneWay_0Node'
+    100836: '{f5f29bb9-1f8c-4c46-81b0-8f7f2c4c367b}Sign_Lane06_0Node'
+    100838: '{f60b95b6-093b-4d4a-a2a6-29a135aeb400}Sign_Lane05_0Node'
+    100840: '{f8911f37-a9f9-49fa-a8ba-b64917259a53}Metal_CylinderPost_8ftNode'
+    100842: '{faf3d7f5-2830-4e37-b3b2-d2907b920a15}Metal_CylinderPost_8ftNode'
+    100844: '{fe5afd25-7cb0-4ea5-92b8-151ca69b5232}Sign_Yield_0Node'
+    400000: attachmentNode
+    400002: attachmentNode 1
+    400004: attachmentNode 10
+    400006: attachmentNode 11
+    400008: attachmentNode 12
+    400010: attachmentNode 13
+    400012: attachmentNode 14
+    400014: attachmentNode 15
+    400016: attachmentNode 16
+    400018: attachmentNode 17
+    400020: attachmentNode 18
+    400022: attachmentNode 19
+    400024: attachmentNode 2
+    400026: attachmentNode 20
+    400028: attachmentNode 21
+    400030: attachmentNode 22
+    400032: attachmentNode 23
+    400034: attachmentNode 24
+    400036: attachmentNode 25
+    400038: attachmentNode 26
+    400040: attachmentNode 27
+    400042: attachmentNode 28
+    400044: attachmentNode 29
+    400046: attachmentNode 3
+    400048: attachmentNode 30
+    400050: attachmentNode 31
+    400052: attachmentNode 32
+    400054: attachmentNode 33
+    400056: attachmentNode 34
+    400058: attachmentNode 35
+    400060: attachmentNode 36
+    400062: attachmentNode 37
+    400064: attachmentNode 38
+    400066: attachmentNode 39
+    400068: attachmentNode 4
+    400070: attachmentNode 40
+    400072: attachmentNode 41
+    400074: attachmentNode 42
+    400076: attachmentNode 43
+    400078: attachmentNode 44
+    400080: attachmentNode 45
+    400082: attachmentNode 46
+    400084: attachmentNode 47
+    400086: attachmentNode 48
+    400088: attachmentNode 49
+    400090: attachmentNode 5
+    400092: attachmentNode 50
+    400094: attachmentNode 51
+    400096: attachmentNode 52
+    400098: attachmentNode 53
+    400100: attachmentNode 54
+    400102: attachmentNode 55
+    400104: attachmentNode 56
+    400106: attachmentNode 57
+    400108: attachmentNode 58
+    400110: attachmentNode 59
+    400112: attachmentNode 6
+    400114: attachmentNode 60
+    400116: attachmentNode 61
+    400118: attachmentNode 62
+    400120: attachmentNode 7
+    400122: attachmentNode 8
+    400124: attachmentNode 9
+    400126: Metal_CylinderPost_8ftNode
+    400128: Metal_CylinderPost_8ftNode 1
+    400130: Metal_CylinderPost_8ftNode 10
+    400132: Metal_CylinderPost_8ftNode 11
+    400134: Metal_CylinderPost_8ftNode 12
+    400136: Metal_CylinderPost_8ftNode 13
+    400138: Metal_CylinderPost_8ftNode 14
+    400140: Metal_CylinderPost_8ftNode 15
+    400142: Metal_CylinderPost_8ftNode 16
+    400144: Metal_CylinderPost_8ftNode 17
+    400146: Metal_CylinderPost_8ftNode 18
+    400148: Metal_CylinderPost_8ftNode 19
+    400150: Metal_CylinderPost_8ftNode 2
+    400152: Metal_CylinderPost_8ftNode 20
+    400154: Metal_CylinderPost_8ftNode 21
+    400156: Metal_CylinderPost_8ftNode 22
+    400158: Metal_CylinderPost_8ftNode 23
+    400160: Metal_CylinderPost_8ftNode 24
+    400162: Metal_CylinderPost_8ftNode 25
+    400164: Metal_CylinderPost_8ftNode 26
+    400166: Metal_CylinderPost_8ftNode 27
+    400168: Metal_CylinderPost_8ftNode 28
+    400170: Metal_CylinderPost_8ftNode 29
+    400172: Metal_CylinderPost_8ftNode 3
+    400174: Metal_CylinderPost_8ftNode 30
+    400176: Metal_CylinderPost_8ftNode 31
+    400178: Metal_CylinderPost_8ftNode 32
+    400180: Metal_CylinderPost_8ftNode 33
+    400182: Metal_CylinderPost_8ftNode 34
+    400184: Metal_CylinderPost_8ftNode 35
+    400186: Metal_CylinderPost_8ftNode 36
+    400188: Metal_CylinderPost_8ftNode 37
+    400190: Metal_CylinderPost_8ftNode 38
+    400192: Metal_CylinderPost_8ftNode 39
+    400194: Metal_CylinderPost_8ftNode 4
+    400196: Metal_CylinderPost_8ftNode 40
+    400198: Metal_CylinderPost_8ftNode 41
+    400200: Metal_CylinderPost_8ftNode 42
+    400202: Metal_CylinderPost_8ftNode 43
+    400204: Metal_CylinderPost_8ftNode 44
+    400206: Metal_CylinderPost_8ftNode 45
+    400208: Metal_CylinderPost_8ftNode 46
+    400210: Metal_CylinderPost_8ftNode 47
+    400212: Metal_CylinderPost_8ftNode 48
+    400214: Metal_CylinderPost_8ftNode 49
+    400216: Metal_CylinderPost_8ftNode 5
+    400218: Metal_CylinderPost_8ftNode 50
+    400220: Metal_CylinderPost_8ftNode 51
+    400222: Metal_CylinderPost_8ftNode 52
+    400224: Metal_CylinderPost_8ftNode 53
+    400226: Metal_CylinderPost_8ftNode 54
+    400228: Metal_CylinderPost_8ftNode 55
+    400230: Metal_CylinderPost_8ftNode 56
+    400232: Metal_CylinderPost_8ftNode 57
+    400234: Metal_CylinderPost_8ftNode 58
+    400236: Metal_CylinderPost_8ftNode 59
+    400238: Metal_CylinderPost_8ftNode 6
+    400240: Metal_CylinderPost_8ftNode 60
+    400242: Metal_CylinderPost_8ftNode 61
+    400244: Metal_CylinderPost_8ftNode 62
+    400246: Metal_CylinderPost_8ftNode 7
+    400248: Metal_CylinderPost_8ftNode 8
+    400250: Metal_CylinderPost_8ftNode 9
+    400252: Node_10Node
+    400254: Node_10Node 1
+    400256: Node_10Node 10
+    400258: Node_10Node 2
+    400260: Node_10Node 3
+    400262: Node_10Node 4
+    400264: Node_10Node 5
+    400266: Node_10Node 6
+    400268: Node_10Node 7
+    400270: Node_10Node 8
+    400272: Node_10Node 9
+    400274: Node_11Node
+    400276: Node_11Node 1
+    400278: Node_11Node 2
+    400280: Node_12Node
+    400282: Node_12Node 1
+    400284: Node_13Node
+    400286: Node_13Node 1
+    400288: Node_13Node 2
+    400290: Node_14Node
+    400292: Node_15Node
+    400294: Node_15Node 1
+    400296: Node_16Node
+    400298: Node_17Node
+    400300: Node_17Node 1
+    400302: Node_17Node 2
+    400304: Node_17Node 3
+    400306: Node_18Node
+    400308: Node_19Node
+    400310: Node_19Node 1
+    400312: Node_19Node 2
+    400314: Node_19Node 3
+    400316: Node_1Node
+    400318: Node_1Node 1
+    400320: Node_1Node 2
+    400322: Node_1Node 3
+    400324: Node_1Node 4
+    400326: Node_20Node
+    400328: Node_20Node 1
+    400330: Node_21Node
+    400332: Node_22Node
+    400334: Node_23Node
+    400336: Node_23Node 1
+    400338: Node_24Node
+    400340: Node_25Node
+    400342: Node_26Node
+    400344: Node_27Node
+    400346: Node_28Node
+    400348: Node_29Node
+    400350: Node_2Node
+    400352: Node_2Node 1
+    400354: Node_3Node
+    400356: Node_4Node
+    400358: Node_4Node 1
+    400360: Node_4Node 2
+    400362: Node_5Node
+    400364: Node_6Node
+    400366: Node_6Node 1
+    400368: Node_7Node
+    400370: Node_7Node 1
+    400372: Node_7Node 2
+    400374: Node_8Node
+    400376: Node_9Node
+    400378: Node_9Node 1
+    400380: NodeNode
+    400382: NodeNode 1
+    400384: NodeNode 10
+    400386: NodeNode 11
+    400388: NodeNode 12
+    400390: NodeNode 13
+    400392: NodeNode 14
+    400394: NodeNode 15
+    400396: NodeNode 16
+    400398: NodeNode 17
+    400400: NodeNode 18
+    400402: NodeNode 2
+    400404: NodeNode 3
+    400406: NodeNode 4
+    400408: NodeNode 5
+    400410: NodeNode 6
+    400412: NodeNode 7
+    400414: NodeNode 8
+    400416: NodeNode 9
+    400418: PropsNode
+    400420: RoadsNode
+    400422: round_postNode
+    400424: round_postNode 1
+    400426: round_postNode 10
+    400428: round_postNode 11
+    400430: round_postNode 12
+    400432: round_postNode 13
+    400434: round_postNode 14
+    400436: round_postNode 15
+    400438: round_postNode 16
+    400440: round_postNode 17
+    400442: round_postNode 18
+    400444: round_postNode 19
+    400446: round_postNode 2
+    400448: round_postNode 20
+    400450: round_postNode 21
+    400452: round_postNode 22
+    400454: round_postNode 23
+    400456: round_postNode 24
+    400458: round_postNode 25
+    400460: round_postNode 26
+    400462: round_postNode 27
+    400464: round_postNode 28
+    400466: round_postNode 29
+    400468: round_postNode 3
+    400470: round_postNode 30
+    400472: round_postNode 31
+    400474: round_postNode 32
+    400476: round_postNode 33
+    400478: round_postNode 34
+    400480: round_postNode 35
+    400482: round_postNode 36
+    400484: round_postNode 37
+    400486: round_postNode 38
+    400488: round_postNode 39
+    400490: round_postNode 4
+    400492: round_postNode 40
+    400494: round_postNode 41
+    400496: round_postNode 42
+    400498: round_postNode 43
+    400500: round_postNode 44
+    400502: round_postNode 45
+    400504: round_postNode 46
+    400506: round_postNode 47
+    400508: round_postNode 48
+    400510: round_postNode 49
+    400512: round_postNode 5
+    400514: round_postNode 50
+    400516: round_postNode 51
+    400518: round_postNode 52
+    400520: round_postNode 53
+    400522: round_postNode 54
+    400524: round_postNode 55
+    400526: round_postNode 56
+    400528: round_postNode 57
+    400530: round_postNode 58
+    400532: round_postNode 59
+    400534: round_postNode 6
+    400536: round_postNode 60
+    400538: round_postNode 61
+    400540: round_postNode 62
+    400542: round_postNode 7
+    400544: round_postNode 8
+    400546: round_postNode 9
+    400548: TerrainNode
+    400550: Tile_0_0Node
+    400552: //RootNode
+    400554: '{017013de-d65e-424c-ad47-712252d497a2}Metal_CylinderPost_8ftNode'
+    400556: '{03d48e0b-6dc1-48b4-8cc6-638514ccfb86}Sign_Yield_0Node'
+    400558: '{044d1911-e955-4d94-af46-27897dad9878}Sign_Yield_0Node'
+    400560: '{071a4c64-fc48-47c6-8dfe-10a9ae9cead0}Metal_CylinderPost_8ftNode'
+    400562: '{08d9699e-5eab-4273-8696-8c3cf3adf486}Sign_PriorityRoad_0Node'
+    400564: '{10309436-eefe-4f96-9a98-ad5ff446adfb}Metal_CylinderPost_8ftNode'
+    400566: '{13175006-042f-4d18-8d96-d7c2925802cb}Metal_CylinderPost_8ftNode'
+    400568: '{14582ee5-a51e-43e0-b50c-cc6d72f7d68d}Sign_BusStop_0Node'
+    400570: '{149ea4f4-7b53-4704-883c-6ad7c718f22b}Sign_NoEntry_0Node'
+    400572: '{14c45785-709c-4110-b01a-d0acee080cfb}Sign_Arrow01_0Node'
+    400574: '{1678bc2c-6c34-430b-9190-2ed5d15a1f85}Sign_Arrow01_0Node'
+    400576: '{17431824-e004-43c5-bd77-1b721ee165db}Sign_Arrow01_0Node'
+    400578: '{1a6025d7-9153-4373-9025-847e2f6f1cb2}Sign_Bicycle01_0Node'
+    400580: '{1d3a36b1-9d7e-48ca-95dc-62b529cfe2a8}Metal_CylinderPost_8ftNode'
+    400582: '{2048be6a-3dbb-45e1-ac50-1208cf84342d}Sign_Arrow01_0Node'
+    400584: '{211039ef-da62-4218-ba6a-759c1c2017f7}Sign_Yield_0Node'
+    400586: '{21e5dcd2-8337-4643-bebf-d3c4b97024ad}Sign_DisabledParking_0Node'
+    400588: '{23851c3e-41a1-4789-b87f-ef39ac153506}Sign_Arrow01_0Node'
+    400590: '{25ad3fb9-477d-4d6e-91bf-bc1a4dbde96d}Metal_CylinderPost_8ftNode'
+    400592: '{282f06e1-4b87-495b-b98e-06cf6015fba7}Sign_NoStopping_0Node'
+    400594: '{29eca4c0-8c5b-4ad8-aafa-300c9cad6b06}Sign_Bicycle01_0Node'
+    400596: '{2b04365c-db91-4af0-916b-9356913abfca}Metal_CylinderPost_8ftNode'
+    400598: '{2f12c7f2-dc3a-4b9d-992d-d79e9800717a}Sign_PriorityRoad_0Node'
+    400600: '{2f8546df-8daf-47fe-913f-89c461379e4a}Sign_Parking_0Node'
+    400602: '{3139d624-3f2e-4628-a98d-51262c8936cd}Sign_Arrow01_0Node'
+    400604: '{343b1cb3-05ea-4141-b641-302482e51a45}Sign_SpeedLimit_70_Max_0Node'
+    400606: '{347e2e37-e4b8-4cc6-b35b-a087d6b64dbe}Sign_AheadThruAndRightTurn_0Node'
+    400608: '{36498573-57e6-4e4f-bd3b-009a7e30c35b}Metal_CylinderPost_8ftNode'
+    400610: '{3666acb2-b7d1-4f96-86b0-cf7fad961242}Sign_Arrow01_0Node'
+    400612: '{374bb509-c24e-4713-abad-8ae130d26367}Sign_Warning_Cyclist_0Node'
+    400614: '{37bfd6ef-21fa-4d07-94ee-8bdd869203c7}Metal_CylinderPost_8ftNode'
+    400616: '{3b5abdd5-3e50-44f2-b04a-b88b5e2b0654}Sign_SpeedLimit_60_Max_0Node'
+    400618: '{3ba22b62-fd32-401e-9116-dcbfc51ea0e3}Metal_CylinderPost_8ftNode'
+    400620: '{3c58fdc1-cccf-43d8-aec1-4187401ef751}Metal_CylinderPost_8ftNode'
+    400622: '{3c61b03d-fc96-4ecd-8655-063b981f9f52}Sign_Stop_0Node'
+    400624: '{3d03c38b-88f0-4942-875b-d5465ade690a}Sign_TramCrossing_0Node'
+    400626: '{3e79a95e-4190-4725-90de-9aea09fd0e45}Metal_CylinderPost_8ftNode'
+    400628: '{44536423-11da-4dd2-863d-aa347ac096c8}Metal_CylinderPost_8ftNode'
+    400630: '{46692845-7665-4c31-b4e5-5d37fd4837c4}Sign_Lane08_0Node'
+    400632: '{4baac79a-ef45-44b4-a509-d9e63406dbae}Sign_NoStopping_0Node'
+    400634: '{4bf9e59e-ce21-48e5-8827-b27674645817}Metal_CylinderPost_8ftNode'
+    400636: '{4c012b75-9c7e-4651-becf-b3761d912759}Sign_DisabledParking_0Node'
+    400638: '{4c804e7a-7aab-4a3c-9474-22591cde5020}Metal_CylinderPost_8ftNode'
+    400640: '{4c913daf-288b-4be3-99f4-f1767f5ed644}Sign_Stop_0Node'
+    400642: '{4e552e52-0540-4ef8-8e19-1d5a2ff4833f}Metal_CylinderPost_8ftNode'
+    400644: '{5327ee5a-2fef-4792-9c6b-e6bf3226feae}Metal_CylinderPost_8ftNode'
+    400646: '{53294af7-eb65-43ad-9685-5d2ab1d7a812}Metal_CylinderPost_8ftNode'
+    400648: '{5343bc14-502e-47c3-adfe-fc5cc75c9768}Metal_CylinderPost_8ftNode'
+    400650: '{541f3182-0b68-4dfd-805d-7a41a52e991c}Sign_Arrow01_0Node'
+    400652: '{57055edc-2f15-4a13-886c-63b256f600c4}Sign_Parking_0Node'
+    400654: '{5880f2c1-2e2a-4713-a508-f6bd56a551e5}Sign_Lane09_0Node'
+    400656: '{5e43b760-df7b-4e9c-995b-6c6d9607dc15}Metal_CylinderPost_8ftNode'
+    400658: '{5ec4d09f-74c8-4845-87b5-05899576efb4}Metal_CylinderPost_8ftNode'
+    400660: '{621924ec-51fe-4e24-b3e6-9eb2637f1032}Sign_Arrow01_0Node'
+    400662: '{63004456-3fba-430c-88a2-c72990449aae}Sign_Lane12_0Node'
+    400664: '{675063c8-1785-4bd2-b215-e4d073284c79}Metal_CylinderPost_8ftNode'
+    400666: '{6ab56585-261d-4cf7-8711-bba523b9c719}Metal_CylinderPost_8ftNode'
+    400668: '{6b3ba3b5-8126-464e-b328-88252f9198b6}Metal_CylinderPost_8ftNode'
+    400670: '{6bb51d3b-64ff-4868-b555-3ba0037dab8f}Sign_AheadThruAndRightTurn_0Node'
+    400672: '{6dc47c60-9421-4e84-91c2-0a20b27a18a7}Metal_CylinderPost_8ftNode'
+    400674: '{6e253189-f0e5-4ca5-b14e-a38ae6174e75}Sign_Parking_0Node'
+    400676: '{7074fb9e-1a83-4484-bfb1-9995839c644e}Metal_CylinderPost_8ftNode'
+    400678: '{70f03c95-6304-4911-b97b-67dece3a4303}Sign_Lane10_0Node'
+    400680: '{72899211-303a-4a15-82f9-e93d4de9fbcc}Metal_CylinderPost_8ftNode'
+    400682: '{738d3cd1-99a4-4621-a6a8-eac04ea2fbe7}Sign_Yield_0Node'
+    400684: '{7efbfcc3-23e5-40d8-83bd-6402fb466a16}Sign_NoEntry_0Node'
+    400686: '{7f3b15ae-2694-4dfb-9803-c35eb97d8635}Metal_CylinderPost_8ftNode'
+    400688: '{7f5160ec-5aad-4692-a903-67eaa07b0850}Sign_Warning_Cyclist_0Node'
+    400690: '{8068a9e6-9d8f-4d7a-a2a2-387ae150945e}Metal_CylinderPost_8ftNode'
+    400692: '{80b44ee6-ff72-43cd-b436-27b1b85f6a31}Metal_CylinderPost_8ftNode'
+    400694: '{8198f50a-7562-4cdc-bc74-dd199500780b}Metal_CylinderPost_8ftNode'
+    400696: '{83382625-6a16-46ba-b62c-8965123bc0f2}Sign_OneWay_0Node'
+    400698: '{84d76931-2864-4280-a882-9ce55827a010}Metal_CylinderPost_8ftNode'
+    400700: '{869b704a-c5b6-4205-bcf6-5aa4452b0d7f}Metal_CylinderPost_8ftNode'
+    400702: '{89de535d-32c5-4e10-9f90-49770dd989ca}Metal_CylinderPost_8ftNode'
+    400704: '{8b3b9bb4-ab4d-47f2-b98a-91797819838e}Metal_CylinderPost_8ftNode'
+    400706: '{8bd1a4a9-c293-4963-a63a-2b3ba3c44291}Metal_CylinderPost_8ftNode'
+    400708: '{8c5c7f01-7d80-4a51-9f2f-816f840f7dbd}Sign_Lane04_0Node'
+    400710: '{8d321ebf-ab8b-43c2-9118-8d52269f6731}Metal_CylinderPost_8ftNode'
+    400712: '{8d60a2d1-62c8-4776-a78b-065ff3bb0122}Metal_CylinderPost_8ftNode'
+    400714: '{8eb36fa3-e8fd-4874-9f8c-6c0dcc93aa62}Sign_EndBicycleLane_0Node'
+    400716: '{903aa261-3a68-47e6-b3b3-10e3a16aa26a}Sign_OneWay_0Node'
+    400718: '{930aa37e-7522-43ed-b6a7-7d87c5b0b84e}Metal_CylinderPost_8ftNode'
+    400720: '{937ea2c7-d1c0-422b-a790-4765a58a4cde}Metal_CylinderPost_8ftNode'
+    400722: '{9557c2ab-0a8f-4a5b-85a8-53c6532d703b}Sign_Yield_0Node'
+    400724: '{9602ec28-70c2-47e2-af70-5ddf14807c89}Metal_CylinderPost_8ftNode'
+    400726: '{9660bbc4-0317-44df-a3de-527654bf22f4}Metal_CylinderPost_8ftNode'
+    400728: '{979855d7-9fac-48b2-b658-4186b0082618}Sign_PassEitherSide_0Node'
+    400730: '{97ea1ccf-2000-44b4-a89d-f0643b0736c7}Sign_NoEntry_0Node'
+    400732: '{9913e7ca-580e-4deb-934f-1117e73c3e2a}Sign_NoEntry_0Node'
+    400734: '{99171df2-2309-4c5b-9b94-f6bc7943f534}Metal_CylinderPost_8ftNode'
+    400736: '{9957a267-6669-4349-898b-4248813358ee}Sign_NoStopping_0Node'
+    400738: '{9979bd2e-0001-469d-a99d-a85775e83e5b}Metal_CylinderPost_8ftNode'
+    400740: '{997af5be-88a2-4b7b-86f4-48d4d77ea5ba}Sign_OneWay_0Node'
+    400742: '{9aa75903-66c0-48b3-b2f2-68bafd2e168b}Sign_PassEitherSide_0Node'
+    400744: '{9d3d10d9-e1a1-453c-9118-b769e57e3b8e}Sign_SpeedLimit_60_Max_0Node'
+    400746: '{9df8dbc4-8e75-46e0-aa4e-0eb80454963d}Sign_Lane03_0Node'
+    400748: '{a00d78c1-2654-4c80-b90b-1a63a00c9e14}Sign_Arrow01_0Node'
+    400750: '{a35ceff1-3276-4b8c-ac7b-54ef27172378}Sign_Yield_0Node'
+    400752: '{a35d17f9-6ffe-446d-a3d7-0ed3ea559863}Metal_CylinderPost_8ftNode'
+    400754: '{a437d06d-484c-4c12-ad68-108200793b73}Sign_Arrow01_0Node'
+    400756: '{a714cbdf-5918-4367-8701-68bb62f02a33}Metal_CylinderPost_8ftNode'
+    400758: '{a94aeb2c-9bd7-4d29-8138-6448a490ba91}Metal_CylinderPost_8ftNode'
+    400760: '{aa1d6d5e-4490-4720-b1d1-dd965e3121bc}Metal_CylinderPost_8ftNode'
+    400762: '{ab6e9d79-69a9-4fda-bf5c-dec55715c9b4}Sign_Lane11_0Node'
+    400764: '{ab97af4c-2bfb-473d-b943-afc78611270d}Sign_Lane01_0Node'
+    400766: '{ac953f79-7b58-40ff-8b72-d610233ec3d2}Sign_Parking_0Node'
+    400768: '{acb4836e-6c63-43c3-aeb4-93f4e89e9267}Sign_Yield_0Node'
+    400770: '{ae116733-95c1-4d2c-82f4-37868bf1f5ea}Sign_Arrow01_0Node'
+    400772: '{aecb3de4-df90-446e-b00a-26d96996c748}Sign_OneWay_0Node'
+    400774: '{af6a6bbc-aa7f-4add-a36f-e35588d1f473}Sign_PassEitherSide_0Node'
+    400776: '{b0a8ca7f-74eb-4217-85fe-bb123cf6a358}Metal_CylinderPost_8ftNode'
+    400778: '{b375e21f-0e6b-44a2-98b4-98562b818cb1}Sign_SpeedLimit_70_Max_0Node'
+    400780: '{b4982b29-f6ec-4688-80eb-e24d21851cd8}Sign_Yield_0Node'
+    400782: '{b5cbad3f-f39f-41d7-8e35-c2264e957d56}Metal_CylinderPost_8ftNode'
+    400784: '{b603e72d-b387-4d46-9c0c-b30f9c680a6f}Metal_CylinderPost_8ftNode'
+    400786: '{b945b49e-7c19-4210-baeb-01cd223ebdd8}Metal_CylinderPost_8ftNode'
+    400788: '{bb02c7a1-7a31-4897-a54c-1c7cf372d372}Sign_Lane01_0Node'
+    400790: '{bb35b560-71e3-492a-9ca5-6957973769e6}Sign_Stop_0Node'
+    400792: '{bb6c1a4a-8b28-44f8-8f4a-fe88483f031f}Sign_Lane02_0Node'
+    400794: '{be43efb8-d3f3-49b2-aab9-9e1794a70923}Metal_CylinderPost_8ftNode'
+    400796: '{c098e86b-f5d8-4d58-b665-60b444a03a31}Sign_Arrow01_0Node'
+    400798: '{c19c0497-cfe8-412a-8c86-f0d5226dc529}Metal_CylinderPost_8ftNode'
+    400800: '{c4c1e631-8a80-4cbd-bb47-ce431227fb1a}Sign_Lane07_0Node'
+    400802: '{c4e6ad80-9435-4a4a-82b4-721a0f6d4911}Sign_Arrow01_0Node'
+    400804: '{c71b3ffd-2969-4023-adb4-1700b110bc29}Sign_Arrow01_0Node'
+    400806: '{c9ecef70-4028-49a9-80a3-02a36963c50c}Metal_CylinderPost_8ftNode'
+    400808: '{cd6c3973-e644-436e-84d1-3fe4e520f85a}Sign_Arrow01_0Node'
+    400810: '{cdb2f549-bdea-4740-8744-62cff94edb2d}Metal_CylinderPost_8ftNode'
+    400812: '{ce7db6ee-e7dd-4efb-9a95-265cf1baa488}Sign_Arrow01_0Node'
+    400814: '{d2e069b4-5e6b-4d86-993a-2c8597293aea}Metal_CylinderPost_8ftNode'
+    400816: '{d6cf761c-153c-4450-ab35-8e717cd0462d}Sign_Yield_0Node'
+    400818: '{d77cd111-1488-4383-b9bf-1c33da79b17a}Metal_CylinderPost_8ftNode'
+    400820: '{e155f1f7-c4b2-4bad-abca-d8caafc75d93}Sign_Yield_0Node'
+    400822: '{ed8fd0f2-444c-4a07-8ce6-541bbef88bf6}Metal_CylinderPost_8ftNode'
+    400824: '{ef6e45fd-47a1-4929-91d7-2a167236709d}Sign_PriorityRoad_0Node'
+    400826: '{f248f2ed-1790-4c36-948d-bdad1f8e3675}Sign_Arrow01_0Node'
+    400828: '{f2a94da1-6254-4228-951a-97f9c648afd1}Metal_CylinderPost_8ftNode'
+    400830: '{f3e1233c-7dcf-4ed6-b5df-d53be491d0e6}Sign_Arrow01_0Node'
+    400832: '{f42008b0-3ba6-457b-ad38-4c2df1974d48}Metal_CylinderPost_8ftNode'
+    400834: '{f489d842-c648-406b-a4f8-98d81c77a48d}Sign_OneWay_0Node'
+    400836: '{f5f29bb9-1f8c-4c46-81b0-8f7f2c4c367b}Sign_Lane06_0Node'
+    400838: '{f60b95b6-093b-4d4a-a2a6-29a135aeb400}Sign_Lane05_0Node'
+    400840: '{f8911f37-a9f9-49fa-a8ba-b64917259a53}Metal_CylinderPost_8ftNode'
+    400842: '{faf3d7f5-2830-4e37-b3b2-d2907b920a15}Metal_CylinderPost_8ftNode'
+    400844: '{fe5afd25-7cb0-4ea5-92b8-151ca69b5232}Sign_Yield_0Node'
+    2100000: Asphalt1
+    2100002: LaneMarking1
+    2100004: LaneMarkingYellow1
+    2100006: Grass1
+    2100008: SharedTexture02
+    2100010: Sign_Arrow01.svg
+    2100012: Sign_Arrow01-Back.png
+    2100014: Sign_OneWay.svg
+    2100016: Default
+    2100018: Sign_Bicycle01.svg
+    2100020: Sign_Bicycle01-Back.png
+    2100022: Sign_EndBicycleLane.svg
+    2100024: Sign_EndBicycleLane-Back.png
+    2100026: Sign_PassEitherSide.svg
+    2100028: Sign_PassEitherSide-Back.png
+    2100030: Sign_Lane11.svg
+    2100032: Sign_Lane11-Back.png
+    2100034: Sign_Lane01.svg
+    2100036: Sign_Lane01-Back.png
+    2100038: Sign_Stop.svg
+    2100040: Sign_Stop-Back.png
+    2100042: Sign_Lane02.svg
+    2100044: Sign_Lane02-Back.png
+    2100046: Sign_Warning_Cyclist.svg
+    2100048: Sign_Warning_Cyclist-Back.png
+    2100050: Sign_Yield.svg
+    2100052: Sign_Yield-Back.png
+    2100054: Sign_NoStopping.svg
+    2100056: Sign_NoStopping-Back.png
+    2100058: Sign_SpeedLimit_60_Max.svg
+    2100060: Sign_SpeedLimit_60_Max-Back.png
+    2100062: Sign_PriorityRoad.svg
+    2100064: Sign_PriorityRoad-Back.png
+    2100066: Sign_Lane04.svg
+    2100068: Sign_Lane04-Back.png
+    2100070: Sign_SpeedLimit_70_Max.svg
+    2100072: Sign_SpeedLimit_70_Max-Back.png
+    2100074: Sign_Lane03.svg
+    2100076: Sign_Lane03-Back.png
+    2100078: Sign_NoEntry.svg
+    2100080: Sign_NoEntry-Back.png
+    2100082: Sign_Lane06.svg
+    2100084: Sign_Parking.svg
+    2100086: Sign_AheadThruAndRightTurn.svg
+    2100088: Sign_AheadThruAndRightTurn-Back.png
+    2100090: Sign_Lane05.svg
+    2100092: Sign_Lane05-Back.png
+    2100094: Sign_BusStop.svg
+    2100096: Sign_DisabledParking.svg
+    2100098: Sign_Lane07.svg
+    2100100: Sign_Lane07-Back.png
+    2100102: Sign_Lane08.svg
+    2100104: Sign_Lane09.svg
+    2100106: Sign_Lane09-Back.png
+    2100108: Sign_Lane10.svg
+    2100110: Sign_Lane10-Back.png
+    2100112: Sign_TramCrossing.svg
+    2100114: Sign_TramCrossing-Back.png
+    2100116: Sign_Lane12.svg
+    2300000: Node_10Node
+    2300002: Node_10Node 1
+    2300004: Node_10Node 10
+    2300006: Node_10Node 2
+    2300008: Node_10Node 3
+    2300010: Node_10Node 4
+    2300012: Node_10Node 5
+    2300014: Node_10Node 6
+    2300016: Node_10Node 7
+    2300018: Node_10Node 8
+    2300020: Node_10Node 9
+    2300022: Node_11Node
+    2300024: Node_11Node 1
+    2300026: Node_11Node 2
+    2300028: Node_12Node
+    2300030: Node_12Node 1
+    2300032: Node_13Node
+    2300034: Node_13Node 1
+    2300036: Node_13Node 2
+    2300038: Node_14Node
+    2300040: Node_15Node
+    2300042: Node_15Node 1
+    2300044: Node_16Node
+    2300046: Node_17Node
+    2300048: Node_17Node 1
+    2300050: Node_17Node 2
+    2300052: Node_17Node 3
+    2300054: Node_18Node
+    2300056: Node_19Node
+    2300058: Node_19Node 1
+    2300060: Node_19Node 2
+    2300062: Node_19Node 3
+    2300064: Node_1Node
+    2300066: Node_1Node 1
+    2300068: Node_1Node 2
+    2300070: Node_1Node 3
+    2300072: Node_1Node 4
+    2300074: Node_20Node
+    2300076: Node_20Node 1
+    2300078: Node_21Node
+    2300080: Node_22Node
+    2300082: Node_23Node
+    2300084: Node_23Node 1
+    2300086: Node_24Node
+    2300088: Node_25Node
+    2300090: Node_26Node
+    2300092: Node_27Node
+    2300094: Node_28Node
+    2300096: Node_29Node
+    2300098: Node_2Node
+    2300100: Node_2Node 1
+    2300102: Node_3Node
+    2300104: Node_4Node
+    2300106: Node_4Node 1
+    2300108: Node_4Node 2
+    2300110: Node_5Node
+    2300112: Node_6Node
+    2300114: Node_6Node 1
+    2300116: Node_7Node
+    2300118: Node_7Node 1
+    2300120: Node_7Node 2
+    2300122: Node_8Node
+    2300124: Node_9Node
+    2300126: Node_9Node 1
+    2300128: NodeNode
+    2300130: NodeNode 1
+    2300132: NodeNode 10
+    2300134: NodeNode 11
+    2300136: NodeNode 12
+    2300138: NodeNode 13
+    2300140: NodeNode 14
+    2300142: NodeNode 15
+    2300144: NodeNode 16
+    2300146: NodeNode 17
+    2300148: NodeNode 18
+    2300150: NodeNode 2
+    2300152: NodeNode 3
+    2300154: NodeNode 4
+    2300156: NodeNode 5
+    2300158: NodeNode 6
+    2300160: NodeNode 7
+    2300162: NodeNode 8
+    2300164: NodeNode 9
+    2300166: RoadsNode
+    2300168: round_postNode
+    2300170: round_postNode 1
+    2300172: round_postNode 10
+    2300174: round_postNode 11
+    2300176: round_postNode 12
+    2300178: round_postNode 13
+    2300180: round_postNode 14
+    2300182: round_postNode 15
+    2300184: round_postNode 16
+    2300186: round_postNode 17
+    2300188: round_postNode 18
+    2300190: round_postNode 19
+    2300192: round_postNode 2
+    2300194: round_postNode 20
+    2300196: round_postNode 21
+    2300198: round_postNode 22
+    2300200: round_postNode 23
+    2300202: round_postNode 24
+    2300204: round_postNode 25
+    2300206: round_postNode 26
+    2300208: round_postNode 27
+    2300210: round_postNode 28
+    2300212: round_postNode 29
+    2300214: round_postNode 3
+    2300216: round_postNode 30
+    2300218: round_postNode 31
+    2300220: round_postNode 32
+    2300222: round_postNode 33
+    2300224: round_postNode 34
+    2300226: round_postNode 35
+    2300228: round_postNode 36
+    2300230: round_postNode 37
+    2300232: round_postNode 38
+    2300234: round_postNode 39
+    2300236: round_postNode 4
+    2300238: round_postNode 40
+    2300240: round_postNode 41
+    2300242: round_postNode 42
+    2300244: round_postNode 43
+    2300246: round_postNode 44
+    2300248: round_postNode 45
+    2300250: round_postNode 46
+    2300252: round_postNode 47
+    2300254: round_postNode 48
+    2300256: round_postNode 49
+    2300258: round_postNode 5
+    2300260: round_postNode 50
+    2300262: round_postNode 51
+    2300264: round_postNode 52
+    2300266: round_postNode 53
+    2300268: round_postNode 54
+    2300270: round_postNode 55
+    2300272: round_postNode 56
+    2300274: round_postNode 57
+    2300276: round_postNode 58
+    2300278: round_postNode 59
+    2300280: round_postNode 6
+    2300282: round_postNode 60
+    2300284: round_postNode 61
+    2300286: round_postNode 62
+    2300288: round_postNode 7
+    2300290: round_postNode 8
+    2300292: round_postNode 9
+    2300294: TerrainNode
+    3300000: Node_10Node
+    3300002: Node_10Node 1
+    3300004: Node_10Node 10
+    3300006: Node_10Node 2
+    3300008: Node_10Node 3
+    3300010: Node_10Node 4
+    3300012: Node_10Node 5
+    3300014: Node_10Node 6
+    3300016: Node_10Node 7
+    3300018: Node_10Node 8
+    3300020: Node_10Node 9
+    3300022: Node_11Node
+    3300024: Node_11Node 1
+    3300026: Node_11Node 2
+    3300028: Node_12Node
+    3300030: Node_12Node 1
+    3300032: Node_13Node
+    3300034: Node_13Node 1
+    3300036: Node_13Node 2
+    3300038: Node_14Node
+    3300040: Node_15Node
+    3300042: Node_15Node 1
+    3300044: Node_16Node
+    3300046: Node_17Node
+    3300048: Node_17Node 1
+    3300050: Node_17Node 2
+    3300052: Node_17Node 3
+    3300054: Node_18Node
+    3300056: Node_19Node
+    3300058: Node_19Node 1
+    3300060: Node_19Node 2
+    3300062: Node_19Node 3
+    3300064: Node_1Node
+    3300066: Node_1Node 1
+    3300068: Node_1Node 2
+    3300070: Node_1Node 3
+    3300072: Node_1Node 4
+    3300074: Node_20Node
+    3300076: Node_20Node 1
+    3300078: Node_21Node
+    3300080: Node_22Node
+    3300082: Node_23Node
+    3300084: Node_23Node 1
+    3300086: Node_24Node
+    3300088: Node_25Node
+    3300090: Node_26Node
+    3300092: Node_27Node
+    3300094: Node_28Node
+    3300096: Node_29Node
+    3300098: Node_2Node
+    3300100: Node_2Node 1
+    3300102: Node_3Node
+    3300104: Node_4Node
+    3300106: Node_4Node 1
+    3300108: Node_4Node 2
+    3300110: Node_5Node
+    3300112: Node_6Node
+    3300114: Node_6Node 1
+    3300116: Node_7Node
+    3300118: Node_7Node 1
+    3300120: Node_7Node 2
+    3300122: Node_8Node
+    3300124: Node_9Node
+    3300126: Node_9Node 1
+    3300128: NodeNode
+    3300130: NodeNode 1
+    3300132: NodeNode 10
+    3300134: NodeNode 11
+    3300136: NodeNode 12
+    3300138: NodeNode 13
+    3300140: NodeNode 14
+    3300142: NodeNode 15
+    3300144: NodeNode 16
+    3300146: NodeNode 17
+    3300148: NodeNode 18
+    3300150: NodeNode 2
+    3300152: NodeNode 3
+    3300154: NodeNode 4
+    3300156: NodeNode 5
+    3300158: NodeNode 6
+    3300160: NodeNode 7
+    3300162: NodeNode 8
+    3300164: NodeNode 9
+    3300166: RoadsNode
+    3300168: round_postNode
+    3300170: round_postNode 1
+    3300172: round_postNode 10
+    3300174: round_postNode 11
+    3300176: round_postNode 12
+    3300178: round_postNode 13
+    3300180: round_postNode 14
+    3300182: round_postNode 15
+    3300184: round_postNode 16
+    3300186: round_postNode 17
+    3300188: round_postNode 18
+    3300190: round_postNode 19
+    3300192: round_postNode 2
+    3300194: round_postNode 20
+    3300196: round_postNode 21
+    3300198: round_postNode 22
+    3300200: round_postNode 23
+    3300202: round_postNode 24
+    3300204: round_postNode 25
+    3300206: round_postNode 26
+    3300208: round_postNode 27
+    3300210: round_postNode 28
+    3300212: round_postNode 29
+    3300214: round_postNode 3
+    3300216: round_postNode 30
+    3300218: round_postNode 31
+    3300220: round_postNode 32
+    3300222: round_postNode 33
+    3300224: round_postNode 34
+    3300226: round_postNode 35
+    3300228: round_postNode 36
+    3300230: round_postNode 37
+    3300232: round_postNode 38
+    3300234: round_postNode 39
+    3300236: round_postNode 4
+    3300238: round_postNode 40
+    3300240: round_postNode 41
+    3300242: round_postNode 42
+    3300244: round_postNode 43
+    3300246: round_postNode 44
+    3300248: round_postNode 45
+    3300250: round_postNode 46
+    3300252: round_postNode 47
+    3300254: round_postNode 48
+    3300256: round_postNode 49
+    3300258: round_postNode 5
+    3300260: round_postNode 50
+    3300262: round_postNode 51
+    3300264: round_postNode 52
+    3300266: round_postNode 53
+    3300268: round_postNode 54
+    3300270: round_postNode 55
+    3300272: round_postNode 56
+    3300274: round_postNode 57
+    3300276: round_postNode 58
+    3300278: round_postNode 59
+    3300280: round_postNode 6
+    3300282: round_postNode 60
+    3300284: round_postNode 61
+    3300286: round_postNode 62
+    3300288: round_postNode 7
+    3300290: round_postNode 8
+    3300292: round_postNode 9
+    3300294: TerrainNode
+    4300000: RoadsNode
+    4300002: TerrainNode
+    4300004: round_postNode
+    4300006: NodeNode
+    4300008: Node_1Node
+    4300010: Node_2Node
+    4300012: Node_3Node
+    4300014: Node_4Node
+    4300016: Node_5Node
+    4300018: Node_6Node
+    4300020: Node_7Node
+    4300022: Node_8Node
+    4300024: Node_9Node
+    4300026: Node_10Node
+    4300028: Node_11Node
+    4300030: Node_12Node
+    4300032: Node_13Node
+    4300034: Node_14Node
+    4300036: Node_15Node
+    4300038: Node_16Node
+    4300040: Node_17Node
+    4300042: Node_18Node
+    4300044: Node_19Node
+    4300046: Node_20Node
+    4300048: Node_21Node
+    4300050: Node_22Node
+    4300052: Node_23Node
+    4300054: Node_24Node
+    4300056: Node_25Node
+    4300058: Node_26Node
+    4300060: Node_27Node
+    4300062: Node_28Node
+    4300064: Node_29Node
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

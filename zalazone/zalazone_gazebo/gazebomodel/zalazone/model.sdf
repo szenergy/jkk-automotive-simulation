@@ -1,0 +1,83 @@
+<sdf version='1.6'>
+    
+  <model name='zalazone'>
+    <static>1</static>
+    <link name='link'>
+      <collision name='coll_road'>
+        <pose>1.57079633 0 0 0 0 0</pose>
+        <geometry>
+        <pose>1.57079633 0 0 0 0 0</pose>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://zalazone/meshes/roadscollision.obj</uri>
+          </mesh>
+        </geometry>
+        
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <bounce/>
+          <friction>
+            <torsional>
+              <ode/>
+            </torsional>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='coll_terrain'>
+        <pose>1.57079633 0 0 0 0 0</pose>
+        <geometry>
+          <mesh> 
+          <pose>1.57079633 0 0 0 0 0</pose>           
+            <scale>1 1 1</scale>
+            <uri>model://zalazone/meshes/terrain_collision.obj</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <bounce/>
+          <friction>
+            <torsional>
+              <ode/>
+            </torsional>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='viz_roads'>
+        <pose frame=''>0 0 0 0.0 0  0</pose>
+        <geometry>
+          <mesh>
+            <scale>100 100 100</scale>
+            <uri>model://zalazone/meshes/roadsexport.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='viz'>
+        <pose frame=''>0 0 0 0.0 0  0</pose>
+        <geometry>
+          <mesh>
+            <scale>100 100 100</scale>
+            <uri>model://zalazone/meshes/terrain_export.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='prop_viz'>
+        <pose frame=''>0 0 0 0.0 0  0</pose>
+        <geometry>
+          <mesh>
+            <scale>100 100 100</scale>
+            <uri>model://zalazone/meshes/propsviz.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+  </model>
+</sdf>

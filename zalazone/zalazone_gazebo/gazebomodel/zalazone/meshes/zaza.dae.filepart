@@ -1,0 +1,2282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author/>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments/>
+    </contributor>
+    <created>2020-02-04T18:29:00Z</created>
+    <keywords/>
+    <modified>2020-02-04T18:29:00Z</modified>
+    <revision/>
+    <subject/>
+    <title/>
+    <unit meter="0.010000" name="centimeter"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="texture-image" name="texture">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Asphalt1_Diff.png</init_from>
+    </image>
+    <image id="texture_ncl1_3-image" name="texture_ncl1_3">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\LaneMarking1_Diff.png</init_from>
+    </image>
+    <image id="texture_ncl1_6-image" name="texture_ncl1_6">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\LaneMarking1_Diff.png</init_from>
+    </image>
+    <image id="texture_ncl1_2-image" name="texture_ncl1_2">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Asphalt1_Spec.png</init_from>
+    </image>
+    <image id="texture_ncl1_5-image" name="texture_ncl1_5">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\LaneMarking1_Spec.png</init_from>
+    </image>
+    <image id="texture_ncl1_8-image" name="texture_ncl1_8">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\LaneMarking1_Spec.png</init_from>
+    </image>
+    <image id="texture_ncl1_9-image" name="texture_ncl1_9">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Grass1_Diff.png</init_from>
+    </image>
+    <image id="texture_ncl1_11-image" name="texture_ncl1_11">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Grass1_Spec.png</init_from>
+    </image>
+    <image id="texture_ncl1_65-image" name="texture_ncl1_65">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Signals_TextureSheet01_Diff.png</init_from>
+    </image>
+    <image id="texture_ncl1_67-image" name="texture_ncl1_67">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Signals_TextureSheet01_Spec.png</init_from>
+    </image>
+    <image id="texture_ncl1_12-image" name="texture_ncl1_12">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Arrow01.png</init_from>
+    </image>
+    <image id="texture_ncl1_13-image" name="texture_ncl1_13">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Arrow01-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_14-image" name="texture_ncl1_14">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_OneWay.png</init_from>
+    </image>
+    <image id="texture_ncl1_15-image" name="texture_ncl1_15">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Bicycle01.png</init_from>
+    </image>
+    <image id="texture_ncl1_16-image" name="texture_ncl1_16">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Bicycle01-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_17-image" name="texture_ncl1_17">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_EndBicycleLane.png</init_from>
+    </image>
+    <image id="texture_ncl1_18-image" name="texture_ncl1_18">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_EndBicycleLane-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_19-image" name="texture_ncl1_19">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_PassEitherSide.png</init_from>
+    </image>
+    <image id="texture_ncl1_20-image" name="texture_ncl1_20">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_PassEitherSide-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_21-image" name="texture_ncl1_21">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane11.png</init_from>
+    </image>
+    <image id="texture_ncl1_22-image" name="texture_ncl1_22">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane11-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_23-image" name="texture_ncl1_23">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane01.png</init_from>
+    </image>
+    <image id="texture_ncl1_24-image" name="texture_ncl1_24">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane01-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_25-image" name="texture_ncl1_25">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Stop.png</init_from>
+    </image>
+    <image id="texture_ncl1_26-image" name="texture_ncl1_26">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Stop-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_27-image" name="texture_ncl1_27">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane02.png</init_from>
+    </image>
+    <image id="texture_ncl1_28-image" name="texture_ncl1_28">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane02-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_29-image" name="texture_ncl1_29">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Warning_Cyclist.png</init_from>
+    </image>
+    <image id="texture_ncl1_30-image" name="texture_ncl1_30">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Warning_Cyclist-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_31-image" name="texture_ncl1_31">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Yield.png</init_from>
+    </image>
+    <image id="texture_ncl1_32-image" name="texture_ncl1_32">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Yield-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_33-image" name="texture_ncl1_33">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_NoStopping.png</init_from>
+    </image>
+    <image id="texture_ncl1_34-image" name="texture_ncl1_34">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_NoStopping-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_35-image" name="texture_ncl1_35">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_SpeedLimit_60_Max.png</init_from>
+    </image>
+    <image id="texture_ncl1_36-image" name="texture_ncl1_36">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_SpeedLimit_60_Max-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_37-image" name="texture_ncl1_37">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_PriorityRoad.png</init_from>
+    </image>
+    <image id="texture_ncl1_38-image" name="texture_ncl1_38">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_PriorityRoad-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_39-image" name="texture_ncl1_39">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane04.png</init_from>
+    </image>
+    <image id="texture_ncl1_40-image" name="texture_ncl1_40">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane04-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_41-image" name="texture_ncl1_41">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_SpeedLimit_70_Max.png</init_from>
+    </image>
+    <image id="texture_ncl1_42-image" name="texture_ncl1_42">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_SpeedLimit_70_Max-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_43-image" name="texture_ncl1_43">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane03.png</init_from>
+    </image>
+    <image id="texture_ncl1_44-image" name="texture_ncl1_44">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane03-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_45-image" name="texture_ncl1_45">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_NoEntry.png</init_from>
+    </image>
+    <image id="texture_ncl1_46-image" name="texture_ncl1_46">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_NoEntry-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_47-image" name="texture_ncl1_47">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane06.png</init_from>
+    </image>
+    <image id="texture_ncl1_48-image" name="texture_ncl1_48">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Parking.png</init_from>
+    </image>
+    <image id="texture_ncl1_49-image" name="texture_ncl1_49">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_AheadThruAndRightTurn.png</init_from>
+    </image>
+    <image id="texture_ncl1_50-image" name="texture_ncl1_50">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_AheadThruAndRightTurn-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_51-image" name="texture_ncl1_51">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane05.png</init_from>
+    </image>
+    <image id="texture_ncl1_52-image" name="texture_ncl1_52">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane05-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_53-image" name="texture_ncl1_53">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_BusStop.png</init_from>
+    </image>
+    <image id="texture_ncl1_54-image" name="texture_ncl1_54">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_DisabledParking.png</init_from>
+    </image>
+    <image id="texture_ncl1_55-image" name="texture_ncl1_55">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane07.png</init_from>
+    </image>
+    <image id="texture_ncl1_56-image" name="texture_ncl1_56">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane07-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_57-image" name="texture_ncl1_57">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane08.png</init_from>
+    </image>
+    <image id="texture_ncl1_58-image" name="texture_ncl1_58">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane09.png</init_from>
+    </image>
+    <image id="texture_ncl1_59-image" name="texture_ncl1_59">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane09-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_60-image" name="texture_ncl1_60">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane10.png</init_from>
+    </image>
+    <image id="texture_ncl1_61-image" name="texture_ncl1_61">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane10-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_62-image" name="texture_ncl1_62">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_TramCrossing.png</init_from>
+    </image>
+    <image id="texture_ncl1_63-image" name="texture_ncl1_63">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_TramCrossing-Back.png</init_from>
+    </image>
+    <image id="texture_ncl1_64-image" name="texture_ncl1_64">
+      <init_from>file://C:\Users\kyberszittya\Documents\Zalazon\Unity3D\ZalaZONE_SmartCityZone_v01\Assets\ZZ_opendrive\FBX\Sign_Lane12.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Asphalt1" name="Asphalt1">
+      <instance_effect url="#Asphalt1-fx"/>
+    </material>
+    <material id="LaneMarking1" name="LaneMarking1">
+      <instance_effect url="#LaneMarking1-fx"/>
+    </material>
+    <material id="LaneMarkingYellow1" name="LaneMarkingYellow1">
+      <instance_effect url="#LaneMarkingYellow1-fx"/>
+    </material>
+    <material id="Grass1" name="Grass1">
+      <instance_effect url="#Grass1-fx"/>
+    </material>
+    <material id="SharedTexture02" name="SharedTexture02">
+      <instance_effect url="#SharedTexture02-fx"/>
+    </material>
+    <material id="Sign_Arrow01FBXASC046svg" name="Sign_Arrow01FBXASC046svg">
+      <instance_effect url="#Sign_Arrow01FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Arrow01FBXASC045BackFBXASC046png" name="Sign_Arrow01FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Arrow01FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_OneWayFBXASC046svg" name="Sign_OneWayFBXASC046svg">
+      <instance_effect url="#Sign_OneWayFBXASC046svg-fx"/>
+    </material>
+    <material id="Default" name="Default">
+      <instance_effect url="#Default-fx"/>
+    </material>
+    <material id="Sign_Bicycle01FBXASC046svg" name="Sign_Bicycle01FBXASC046svg">
+      <instance_effect url="#Sign_Bicycle01FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Bicycle01FBXASC045BackFBXASC046png" name="Sign_Bicycle01FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Bicycle01FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_EndBicycleLaneFBXASC046svg" name="Sign_EndBicycleLaneFBXASC046svg">
+      <instance_effect url="#Sign_EndBicycleLaneFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_EndBicycleLaneFBXASC045BackFBXASC046png" name="Sign_EndBicycleLaneFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_EndBicycleLaneFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_PassEitherSideFBXASC046svg" name="Sign_PassEitherSideFBXASC046svg">
+      <instance_effect url="#Sign_PassEitherSideFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_PassEitherSideFBXASC045BackFBXASC046png" name="Sign_PassEitherSideFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_PassEitherSideFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Lane11FBXASC046svg" name="Sign_Lane11FBXASC046svg">
+      <instance_effect url="#Sign_Lane11FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane11FBXASC045BackFBXASC046png" name="Sign_Lane11FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Lane11FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Lane01FBXASC046svg" name="Sign_Lane01FBXASC046svg">
+      <instance_effect url="#Sign_Lane01FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane01FBXASC045BackFBXASC046png" name="Sign_Lane01FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Lane01FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_StopFBXASC046svg" name="Sign_StopFBXASC046svg">
+      <instance_effect url="#Sign_StopFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_StopFBXASC045BackFBXASC046png" name="Sign_StopFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_StopFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Lane02FBXASC046svg" name="Sign_Lane02FBXASC046svg">
+      <instance_effect url="#Sign_Lane02FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane02FBXASC045BackFBXASC046png" name="Sign_Lane02FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Lane02FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Warning_CyclistFBXASC046svg" name="Sign_Warning_CyclistFBXASC046svg">
+      <instance_effect url="#Sign_Warning_CyclistFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Warning_CyclistFBXASC045BackFBXASC046png" name="Sign_Warning_CyclistFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Warning_CyclistFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_YieldFBXASC046svg" name="Sign_YieldFBXASC046svg">
+      <instance_effect url="#Sign_YieldFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_YieldFBXASC045BackFBXASC046png" name="Sign_YieldFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_YieldFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_NoStoppingFBXASC046svg" name="Sign_NoStoppingFBXASC046svg">
+      <instance_effect url="#Sign_NoStoppingFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_NoStoppingFBXASC045BackFBXASC046png" name="Sign_NoStoppingFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_NoStoppingFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_SpeedLimit_60_MaxFBXASC046svg" name="Sign_SpeedLimit_60_MaxFBXASC046svg">
+      <instance_effect url="#Sign_SpeedLimit_60_MaxFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_SpeedLimit_60_MaxFBXASC045BackFBXASC046png" name="Sign_SpeedLimit_60_MaxFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_SpeedLimit_60_MaxFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_PriorityRoadFBXASC046svg" name="Sign_PriorityRoadFBXASC046svg">
+      <instance_effect url="#Sign_PriorityRoadFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_PriorityRoadFBXASC045BackFBXASC046png" name="Sign_PriorityRoadFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_PriorityRoadFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Lane04FBXASC046svg" name="Sign_Lane04FBXASC046svg">
+      <instance_effect url="#Sign_Lane04FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane04FBXASC045BackFBXASC046png" name="Sign_Lane04FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Lane04FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_SpeedLimit_70_MaxFBXASC046svg" name="Sign_SpeedLimit_70_MaxFBXASC046svg">
+      <instance_effect url="#Sign_SpeedLimit_70_MaxFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_SpeedLimit_70_MaxFBXASC045BackFBXASC046png" name="Sign_SpeedLimit_70_MaxFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_SpeedLimit_70_MaxFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Lane03FBXASC046svg" name="Sign_Lane03FBXASC046svg">
+      <instance_effect url="#Sign_Lane03FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane03FBXASC045BackFBXASC046png" name="Sign_Lane03FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Lane03FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_NoEntryFBXASC046svg" name="Sign_NoEntryFBXASC046svg">
+      <instance_effect url="#Sign_NoEntryFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_NoEntryFBXASC045BackFBXASC046png" name="Sign_NoEntryFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_NoEntryFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Lane06FBXASC046svg" name="Sign_Lane06FBXASC046svg">
+      <instance_effect url="#Sign_Lane06FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_ParkingFBXASC046svg" name="Sign_ParkingFBXASC046svg">
+      <instance_effect url="#Sign_ParkingFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_AheadThruAndRightTurnFBXASC046svg" name="Sign_AheadThruAndRightTurnFBXASC046svg">
+      <instance_effect url="#Sign_AheadThruAndRightTurnFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_AheadThruAndRightTurnFBXASC045BackFBXASC046png" name="Sign_AheadThruAndRightTurnFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_AheadThruAndRightTurnFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Lane05FBXASC046svg" name="Sign_Lane05FBXASC046svg">
+      <instance_effect url="#Sign_Lane05FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane05FBXASC045BackFBXASC046png" name="Sign_Lane05FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Lane05FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_BusStopFBXASC046svg" name="Sign_BusStopFBXASC046svg">
+      <instance_effect url="#Sign_BusStopFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_DisabledParkingFBXASC046svg" name="Sign_DisabledParkingFBXASC046svg">
+      <instance_effect url="#Sign_DisabledParkingFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane07FBXASC046svg" name="Sign_Lane07FBXASC046svg">
+      <instance_effect url="#Sign_Lane07FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane07FBXASC045BackFBXASC046png" name="Sign_Lane07FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Lane07FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Lane08FBXASC046svg" name="Sign_Lane08FBXASC046svg">
+      <instance_effect url="#Sign_Lane08FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane09FBXASC046svg" name="Sign_Lane09FBXASC046svg">
+      <instance_effect url="#Sign_Lane09FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane09FBXASC045BackFBXASC046png" name="Sign_Lane09FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Lane09FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Lane10FBXASC046svg" name="Sign_Lane10FBXASC046svg">
+      <instance_effect url="#Sign_Lane10FBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_Lane10FBXASC045BackFBXASC046png" name="Sign_Lane10FBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_Lane10FBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_TramCrossingFBXASC046svg" name="Sign_TramCrossingFBXASC046svg">
+      <instance_effect url="#Sign_TramCrossingFBXASC046svg-fx"/>
+    </material>
+    <material id="Sign_TramCrossingFBXASC045BackFBXASC046png" name="Sign_TramCrossingFBXASC045BackFBXASC046png">
+      <instance_effect url="#Sign_TramCrossingFBXASC045BackFBXASC046png-fx"/>
+    </material>
+    <material id="Sign_Lane12FBXASC046svg" name="Sign_Lane12FBXASC046svg">
+      <instance_effect url="#Sign_Lane12FBXASC046svg-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Asphalt1-fx" name="Asphalt1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="texture_ncl1_2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="LaneMarking1-fx" name="LaneMarking1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_3-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="texture_ncl1_5-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="LaneMarkingYellow1-fx" name="LaneMarkingYellow1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  0.835294 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_6-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="texture_ncl1_8-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Grass1-fx" name="Grass1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_9-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="texture_ncl1_11-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="SharedTexture02-fx" name="SharedTexture02">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_65-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="texture_ncl1_67-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Arrow01FBXASC046svg-fx" name="Sign_Arrow01FBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_12-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_12-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Arrow01FBXASC045BackFBXASC046png-fx" name="Sign_Arrow01FBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_13-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_13-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_OneWayFBXASC046svg-fx" name="Sign_OneWayFBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_14-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Default-fx" name="Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">1.000000  1.000000 1.000000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Bicycle01FBXASC046svg-fx" name="Sign_Bicycle01FBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_15-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_15-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Bicycle01FBXASC045BackFBXASC046png-fx" name="Sign_Bicycle01FBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_16-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_16-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_EndBicycleLaneFBXASC046svg-fx" name="Sign_EndBicycleLaneFBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_EndBicycleLaneFBXASC045BackFBXASC046png-fx" name="Sign_EndBicycleLaneFBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_18-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_18-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_PassEitherSideFBXASC046svg-fx" name="Sign_PassEitherSideFBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_19-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_19-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_PassEitherSideFBXASC045BackFBXASC046png-fx" name="Sign_PassEitherSideFBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_20-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_20-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Lane11FBXASC046svg-fx" name="Sign_Lane11FBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_21-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_21-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Lane11FBXASC045BackFBXASC046png-fx" name="Sign_Lane11FBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_22-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_22-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Lane01FBXASC046svg-fx" name="Sign_Lane01FBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_23-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_23-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Lane01FBXASC045BackFBXASC046png-fx" name="Sign_Lane01FBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_24-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_24-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_StopFBXASC046svg-fx" name="Sign_StopFBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_25-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_25-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_StopFBXASC045BackFBXASC046png-fx" name="Sign_StopFBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_26-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_26-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Lane02FBXASC046svg-fx" name="Sign_Lane02FBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_27-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_27-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Lane02FBXASC045BackFBXASC046png-fx" name="Sign_Lane02FBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_28-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_28-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Warning_CyclistFBXASC046svg-fx" name="Sign_Warning_CyclistFBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_29-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_29-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Warning_CyclistFBXASC045BackFBXASC046png-fx" name="Sign_Warning_CyclistFBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_30-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_30-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_YieldFBXASC046svg-fx" name="Sign_YieldFBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_31-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_31-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_YieldFBXASC045BackFBXASC046png-fx" name="Sign_YieldFBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_32-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_32-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_NoStoppingFBXASC046svg-fx" name="Sign_NoStoppingFBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_33-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_33-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_NoStoppingFBXASC045BackFBXASC046png-fx" name="Sign_NoStoppingFBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_34-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_34-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_SpeedLimit_60_MaxFBXASC046svg-fx" name="Sign_SpeedLimit_60_MaxFBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_35-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_35-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_SpeedLimit_60_MaxFBXASC045BackFBXASC046png-fx" name="Sign_SpeedLimit_60_MaxFBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_36-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_36-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_PriorityRoadFBXASC046svg-fx" name="Sign_PriorityRoadFBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_37-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_37-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_PriorityRoadFBXASC045BackFBXASC046png-fx" name="Sign_PriorityRoadFBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_38-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_38-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Lane04FBXASC046svg-fx" name="Sign_Lane04FBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_39-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_39-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Lane04FBXASC045BackFBXASC046png-fx" name="Sign_Lane04FBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_40-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_40-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_SpeedLimit_70_MaxFBXASC046svg-fx" name="Sign_SpeedLimit_70_MaxFBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_41-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_41-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_SpeedLimit_70_MaxFBXASC045BackFBXASC046png-fx" name="Sign_SpeedLimit_70_MaxFBXASC045BackFBXASC046png">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_42-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <texture texture="texture_ncl1_42-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Sign_Lane03FBXASC046svg-fx" name="Sign_Lane03FBXASC046svg">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">1.000000  1.000000 1.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_ncl1_43-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000392  0.000392 0.000392 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+       

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launch>
+    <include file="$(find nissan_gazebo_sim)/launch/nissan_leaf/nissan.leaf.3d.gen.launch">
+        <arg name="trans_z" value="1.1"/>
+    </include>
+</launch>
