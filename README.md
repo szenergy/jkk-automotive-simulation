@@ -14,6 +14,7 @@ Gazebo 11 is recommended, as we have tested with this version. Also as LIDAR sim
 
 The following 3rd party packages are required:
 - gazebo_ros (mandatory)
+- autoware_msgs
 
 Additional requirements:
 - szelectricity_common (you can obtain it here: https://github.com/szenergy/szenergy-common, clone it to your workspace)
