@@ -9,8 +9,8 @@ The following test environments
 
 ## Tool requirements
 Gazebo 11 is recommended, as we have tested with this version. Also as LIDAR simulation will be extensively used, it is also preferred to build it from source.
-- Install Gazebo 11 via Ubuntu pacakges: http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
-- Install Gazebo 11 from source: http://gazebosim.org/tutorials?tut=install_from_source&cat=install
+- Install Gazebo 11 via Ubuntu pacakges: http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install tl;dr: `sudo apt install ros-$ROS_DISTRO-gazebo11-ros-pkgs`
+- Install Gazebo 11 from source: http://gazebosim.org/tutorials?tut=install_from_source&cat=install 
 
 The following 3rd party packages are required:
 - gazebo_ros (mandatory)
