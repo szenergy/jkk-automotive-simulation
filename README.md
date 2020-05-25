@@ -95,7 +95,7 @@ gzclient
 | Gazebo                  | 11.0    | Mandatory tool      | apt    | http://gazebosim.org/ |
 | ROS gazebo              | melodic | Mandatory package   | apt    | https://github.com/ros-simulation/gazebo_ros_pkgs          |
 | autoware.ai             | 1.13 |Required Framework  | gitlab | https://gitlab.com/autowarefoundation/autoware.ai/autoware |
-| Velodyne gazebo plugins | Gazebo plugins      | github | https://bitbucket.org/DataspeedInc/velodyne_simulator/src/master/ |
-| szelectricity_common    | Custom package (organziation)  | github | https://github.com/szenergy/szenergy-common |
+| Velodyne gazebo plugins | 1.0.9 | Gazebo plugins      | github | https://bitbucket.org/DataspeedInc/velodyne_simulator/src/master/ |
+| szelectricity_common    | 0.1 | Custom package (organziation)  | github | https://github.com/szenergy/szenergy-common |
 
 Last modification: 2020.05.25
