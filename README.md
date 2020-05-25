@@ -38,13 +38,14 @@ Starting fresh, install the Zalazone gazebo models with the following script (th
 ```bash
 ./install_zalazone_gazebo.sh
 ```
+
+# Zalazone simulation with Nissan Leaf loaded
 To start the Zalazone simulation, start __gzserver__ with Zalazone loaded:
 ```
 cd zalazone/zalazone_gazebo/sdf
 rosrun gazebo_ros gzserver zalazone.sdf
 ```
 
-# Load Nissan Leaf into Zalazone
 Next, load the Nissan Leaf model into the simulation, with the following launch file (this offsets the vehicle with the correct height):
 ```bash
 roslaunch zalazone_gazebo load_nissan_leaf.launch
@@ -58,12 +59,13 @@ gzclient
 Enjoy! An example simulation is shown below:
 ![alt text](https://github.com/szenergy/jkk-automotive-simulation/blob/master/docs/zalazone_gazebo.jpg "Gazebo example")
 
-# Summary of commands (installation)
+# Summary of commands (installation from fresh)
 ```bash
 # Change directory to your workspace's source (e.g. catkin_ws)
 cd ~/catkin_ws/src
 # Clone workspace
 git clone https://github.com/szenergy/jkk-automotive-simulation
+# 
 # Build workspace (in root of workspace)
 cd ~/catkin_ws
 catkin build
@@ -81,6 +83,8 @@ cd ~/catkin_ws
 source ./devel/setup.bash
 # Load Nissan Leaf
 roslaunch zalazone_gazebo load_nissan_leaf.launch
+# Start gzclient
+gzclient
 ```
 
 Last modification: 2020.05.25
