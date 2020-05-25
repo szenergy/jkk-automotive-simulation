@@ -21,6 +21,7 @@ Additional requirements:
 You may also want to check out the __nissan_leaf_ros__ repository, for the real vehicle (optional): https://github.com/szenergy/nissan_leaf_ros
 
 ## Installation steps
+Clone this repository to your workspace, and build it.
 
 Starting fresh, install the Zalazone gazebo models with the following script (this will copy the models into the system gazebo folder):
 ```bash
