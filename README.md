@@ -87,11 +87,14 @@ roslaunch zalazone_gazebo load_nissan_leaf.launch
 gzclient
 ```
 
-# Summary of requirements (packages)
-| Package name            | Req. type           | Source | Wiki page                                                  |
-|-------------------------|---------------------|--------|------------------------------------------------------------|
-| ROS gazebo              | Mandatory package   | apt    | https://github.com/ros-simulation/gazebo_ros_pkgs          |
-| autoware.ai             | Required Framework  | gitlab | https://gitlab.com/autowarefoundation/autoware.ai/autoware |
+# Summary of system configuration
+| Package name            |Version| Req. type   | Source | Web page                                                  |
+|-------------------------|-------|-------------|--------|-----------------------------------------------------------|
+| Ubuntu                  | 18.04 bionic | Operating-system | system | https://releases.ubuntu.com/18.04.4/ |
+| ROS                     | melodic | Mandatory framework | apt    | http://wiki.ros.org/ |
+| Gazebo                  | 11.0    | Mandatory tool      | apt    | http://gazebosim.org/ |
+| ROS gazebo              | melodic | Mandatory package   | apt    | https://github.com/ros-simulation/gazebo_ros_pkgs          |
+| autoware.ai             | 1.13 |Required Framework  | gitlab | https://gitlab.com/autowarefoundation/autoware.ai/autoware |
 | Velodyne gazebo plugins | Gazebo plugins      | github | https://bitbucket.org/DataspeedInc/velodyne_simulator/src/master/ |
 | szelectricity_common    | Custom package (organziation)  | github | https://github.com/szenergy/szenergy-common |
 
