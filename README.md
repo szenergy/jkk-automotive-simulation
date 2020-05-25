@@ -39,6 +39,11 @@ Next, load the Nissan Leaf model into the simulation, with the following launch 
 ```bash
 roslaunch zalazone_gazebo load_nissan_leaf.launch
 ```
+__Note__: by following these instructions, to see anyithing, you will have to start gzclient separately, like this:
+```bash
+gzclient
+```
+
 
 Enjoy! An example simulation is shown below:
 ![alt text](https://github.com/szenergy/jkk-automotive-simulation/blob/master/docs/zalazone_gazebo.jpg "Gazebo example")
