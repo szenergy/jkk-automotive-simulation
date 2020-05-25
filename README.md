@@ -6,7 +6,23 @@ The following test environments
 - ZalaZone
 
 # Getting started
-First time, install the Zalazone gazebo models with the following script (this will copy the models into the system gazebo folder):
+
+## Tool requirements
+Gazebo 11 is recommended, as we have tested with this version. Also as LIDAR simulation will be extensively used, it is also preferred to build it from source.
+- Install Gazebo 11 via Ubuntu pacakges: http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
+- Install Gazebo 11 from source: http://gazebosim.org/tutorials?tut=install_from_source&cat=install
+
+The following 3rd party packages are required:
+- gazebo_ros (mandatory)
+
+Additional requirements:
+- szelectricity_common (you can obtain it here: https://github.com/szenergy/szenergy-common, clone it to your workspace)
+
+You may also want to check out the __nissan_leaf_ros__ repository, for the real vehicle (optional): https://github.com/szenergy/nissan_leaf_ros
+
+## Installation steps
+
+Starting fresh, install the Zalazone gazebo models with the following script (this will copy the models into the system gazebo folder):
 ```bash
 ./install_zalazone_gazebo.sh
 ```
@@ -25,4 +41,4 @@ roslaunch zalazone_gazebo load_nissan_leaf.launch
 Enjoy! An example simulation is shown below:
 ![alt text](https://github.com/szenergy/jkk-automotive-simulation/blob/master/docs/zalazone_gazebo.jpg "Gazebo example")
 
-Last modification: 2020.05.07
+Last modification: 2020.05.25
