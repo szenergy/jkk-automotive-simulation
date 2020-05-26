@@ -18,11 +18,14 @@ The following 3rd party packages are required:
 - gazebo_ros (mandatory)
 - autoware_msgs
 - Velodyne Gazebo plugins for the LIDAR simulation. Get it from here, and clone it to your workspace: https://bitbucket.org/DataspeedInc/velodyne_simulator/src/master/
+- Hector Gazebo plugins for GPS sensor simulation. Get it from here, and clone it to your workspace (https://github.com/tu-darmstadt-ros-pkg/hector_gazebo)
+  - Or install through apt: ```sudo apt install ros-melodic-hector-gazebo-plugins```
 
 Additional requirements:
 - szelectricity_common (you can obtain it here: https://github.com/szenergy/szenergy-common, clone it to your workspace)
+- nissan_leaf_ros (optional req., you can obtain it here: https://github.com/szenergy/nissan_leaf_ros, clone it to your workspace)
 
-You may also want to check out the __nissan_leaf_ros__ repository, for the real vehicle (optional): https://github.com/szenergy/nissan_leaf_ros
+You may also want to check out the __nissan_leaf_ros__ repository, for the real vehicle (optional): https://github.com/szenergy/nissan_leaf_ros This package is optional requirement for visualization purposes.
 
 ## Installation steps
 Clone this repository to your workspace, and build it (ensure you are at the root of the workspace):
@@ -50,6 +53,15 @@ Next, load the Nissan Leaf model into the simulation, with the following launch 
 ```bash
 roslaunch zalazone_gazebo load_nissan_leaf.launch
 ```
+For many applications of ROS, you shall need a static TF tree from __base_link__ and to the sensors. YOu can broadcast this with the following launch file:
+```bash
+roslaunch nissan_sim_bringup nissanleaf_statictf_launch.simulation.launch
+```
+Alternatively, if you want to view the vehicle's geometry as well:
+```bash
+roslaunch nissan_sim_bringup nissan.leaf.staticbringup.ref.sim.launch
+```
+
 __Note__: by following these instructions, to see anyithing, you will have to start gzclient separately, like this:
 ```bash
 gzclient
@@ -65,7 +77,8 @@ Enjoy! An example simulation is shown below:
 cd ~/catkin_ws/src
 # Clone workspace
 git clone https://github.com/szenergy/jkk-automotive-simulation
-# 
+# Optionally clone physical description of nissan leaf description
+git clone https://github.com/szenergy/nissan_leaf_ros
 # Build workspace (in root of workspace)
 cd ~/catkin_ws
 catkin build
@@ -83,6 +96,8 @@ cd ~/catkin_ws
 source ./devel/setup.bash
 # Load Nissan Leaf
 roslaunch zalazone_gazebo load_nissan_leaf.launch
+# Start static TF for simulation AND visualization of vehicle geometry
+roslaunch nissan_sim_bringup nissan.leaf.staticbringup.ref.sim.launch
 # Start gzclient
 gzclient
 ```
@@ -96,6 +111,9 @@ gzclient
 | ROS gazebo              | melodic | Mandatory package   | apt    | https://github.com/ros-simulation/gazebo_ros_pkgs          |
 | autoware.ai             | 1.13 |Required Framework  | gitlab | https://gitlab.com/autowarefoundation/autoware.ai/autoware |
 | Velodyne gazebo plugins | 1.0.9 | Gazebo plugins      | github | https://bitbucket.org/DataspeedInc/velodyne_simulator/src/master/ |
-| szelectricity_common    | 0.1 | Custom package (organziation)  | github | https://github.com/szenergy/szenergy-common |
+| hector_gazebo_plugins | melodic-devel| GPS plugin | github | https://github.com/tu-darmstadt-ros-pkg/hector_gazebo |
+| szelectricity_common| 0.1 | Custom package (organziation)| github | https://github.com/szenergy/szenergy-common |
+| nissan_leaf_ros     | 0.1 | Custom package (organization)| github | https://github.com/szenergy/nissan_leaf_ros |
+
 
 Last modification: 2020.05.25
